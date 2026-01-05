@@ -89,7 +89,7 @@
     <backup>
       <git version="1.0.0">
         <enabled>1</enabled>
-        <url>ssh://git@github.com/Sonni4154/opnsense.git</url>
+        <url>ssh://github.com/Sonni4154/opnsense.git</url>
         <branch>master</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn&#13;
@@ -2403,7 +2403,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/diag_backup.php made changes</description>
-    <time>1767641695.0667</time>
+    <time>1767641972.6687</time>
   </revision>
   <Deciso>
     <Proxy>
