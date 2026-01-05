@@ -2411,9 +2411,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.99.99</username>
-    <description>/api/cron/settings/addJob/ made changes</description>
-    <time>1767643021.1423</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
+    <time>1767651480.3494</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3540,6 +3540,22 @@ hub-data.crowdsec.net</content>
             <categories/>
             <description>Cloudflare IP ranges</description>
           </alias>
+          <alias uuid="825dd732-04a2-4221-b3f5-cbc621d0e041">
+            <enabled>1</enabled>
+            <name>nginx_autoblock</name>
+            <type>external</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content/>
+            <password/>
+            <username/>
+            <authtype/>
+            <categories/>
+            <description/>
+          </alias>
         </aliases>
       </Alias>
       <Filter version="1.0.4">
@@ -4036,6 +4052,10 @@ hub-data.crowdsec.net</content>
         <zero_rtt>0</zero_rtt>
         <errorpages/>
       </http_server>
+      <ban uuid="422a439b-ee8a-417e-a92b-76b6f698ec30">
+        <ip>172.69.234.157</ip>
+        <time>1767651480</time>
+      </ban>
     </Nginx>
     <monit version="1.0.13">
       <general>
