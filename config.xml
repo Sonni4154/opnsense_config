@@ -140,8 +140,8 @@ zu277yhRzdN3NXR+H8r9YoLRoq+r0lj3pHj5yE7tpVEUYFKsXVBQKTYzD/R4hzjL14r4+a&#13;
 MO4803My+8+hxIaf5DohdSsfrTgEg5fswMrrD4NJI7D/yPsUFmOGxDgReUQNq8QHYWA5hv&#13;
 gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
 -----END OPENSSH PRIVATE KEY-----</privkey>
-        <user>sonni4154</user>
-        <password>TTrustno22$$$</password>
+        <user>git</user>
+        <password/>
       </git>
     </backup>
     <firmware version="1.0.1">
@@ -2403,7 +2403,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/diag_backup.php made changes</description>
-    <time>1767641590.4393</time>
+    <time>1767641695.0667</time>
   </revision>
   <Deciso>
     <Proxy>
