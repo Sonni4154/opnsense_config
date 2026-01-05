@@ -2413,7 +2413,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/api/cron/settings/addJob/ made changes</description>
-    <time>1767642956.7859</time>
+    <time>1767642975.7536</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3842,6 +3842,19 @@ hub-data.crowdsec.net</content>
           <command>ids update</command>
           <parameters/>
           <description>reload rules for intrustion</description>
+        </job>
+        <job uuid="751a4a54-704c-4eac-8c65-fdc81253f0b9">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>0</minutes>
+          <hours>0</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>1</weekdays>
+          <who>root</who>
+          <command>syslog archive</command>
+          <parameters/>
+          <description>rotate logs</description>
         </job>
       </jobs>
     </cron>
