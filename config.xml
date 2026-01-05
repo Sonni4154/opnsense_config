@@ -2412,8 +2412,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>Changed backup revision count</description>
-    <time>1767642600.1428</time>
+    <description>/api/cron/settings/addJob/ made changes</description>
+    <time>1767642683.7057</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3790,6 +3790,19 @@ hub-data.crowdsec.net</content>
           <command>acmeclient cron-auto-renew</command>
           <parameters/>
           <description>AcmeClient Cronjob for Certificate AutoRenewal</description>
+        </job>
+        <job uuid="6c735c50-24b9-470c-87fc-92ad4daaf9dc">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>0</minutes>
+          <hours>3</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>system remote backup</command>
+          <parameters/>
+          <description>remote backup</description>
         </job>
       </jobs>
     </cron>
