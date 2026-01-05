@@ -97,7 +97,7 @@ rQAAAAtzc2gtZWQyNTUxOQAAACBmPDFTbmRkbsl1E+PU4avZkX1lThJs12sdfmyOw7QOaw&#13;
 AAAEBCgxY0qSrTamG/K5/lkbB1WjFSrKqi/RV4K8WH4/aG42Y8MVNuZGRuyXUT49Thq9mR&#13;
 fWVOEmzXax1+bI7DtA5rAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQIDBAUG</privkey>
         <user>sonni4154</user>
-        <password>Trustno2$$$</password>
+        <password/>
       </git>
     </backup>
     <firmware version="1.0.1">
@@ -2358,8 +2358,8 @@ fWVOEmzXax1+bI7DtA5rAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQIDBAUG</privkey>
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>Changed backup revision count</description>
-    <time>1767641334.7791</time>
+    <description>/diag_backup.php made changes</description>
+    <time>1767641337.7649</time>
   </revision>
   <Deciso>
     <Proxy>
