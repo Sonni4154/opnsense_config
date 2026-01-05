@@ -2413,7 +2413,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/api/cron/settings/addJob/ made changes</description>
-    <time>1767642769.6001</time>
+    <time>1767642956.7859</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3829,6 +3829,19 @@ hub-data.crowdsec.net</content>
           <command>firmware poll</command>
           <parameters/>
           <description>firmware check</description>
+        </job>
+        <job uuid="81eb185f-7944-423f-bde2-9d7fb47921fd">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>0</minutes>
+          <hours>0</hours>
+          <days>1,15</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>ids update</command>
+          <parameters/>
+          <description>reload rules for intrustion</description>
         </job>
       </jobs>
     </cron>
