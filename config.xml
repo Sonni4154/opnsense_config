@@ -2413,7 +2413,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1767651480.3494</time>
+    <time>1767655500.3339</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4055,6 +4055,58 @@ hub-data.crowdsec.net</content>
       <ban uuid="422a439b-ee8a-417e-a92b-76b6f698ec30">
         <ip>172.69.234.157</ip>
         <time>1767651480</time>
+      </ban>
+      <ban uuid="800a07ba-e690-4ce5-acb0-31955fe4463d">
+        <ip>172.68.174.66</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="b8491b70-a5b0-4713-94e9-3eeff8745f5d">
+        <ip>172.68.174.209</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="996ee7f0-93d4-455e-b0a7-3d355754ac3c">
+        <ip>172.68.175.36</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="bbb62160-b3c5-4d2b-95bd-d6bcf5c9288a">
+        <ip>104.23.160.57</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="f4700aae-613d-4a36-9049-3fca424f87e2">
+        <ip>104.23.160.101</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="b5ef609c-febd-4681-ab3a-2f92ab3c1d01">
+        <ip>104.23.160.132</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="5055b50e-93eb-49b0-8cbe-479bc7a78040">
+        <ip>172.68.175.102</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="7a5b5fc6-0ef9-4bb2-8e44-53ae9c41f966">
+        <ip>172.68.175.23</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="cb28acfd-ba32-48ed-833e-91408fd89645">
+        <ip>104.23.160.70</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="30f7f4a9-59d6-4400-8743-d452c3938712">
+        <ip>172.68.175.68</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="e5005ee3-446e-4749-9d8e-d052330d8533">
+        <ip>104.23.160.187</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="5424a819-464e-4da9-877b-972a8145993e">
+        <ip>104.23.160.214</ip>
+        <time>1767655500</time>
+      </ban>
+      <ban uuid="81439e8b-4a8f-4e24-b962-bf504c6d510a">
+        <ip>172.68.174.51</ip>
+        <time>1767655500</time>
       </ban>
     </Nginx>
     <monit version="1.0.13">
