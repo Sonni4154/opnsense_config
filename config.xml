@@ -2358,8 +2358,8 @@ fWVOEmzXax1+bI7DtA5rAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQIDBAUG</privkey>
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1767641309.8837</time>
+    <description>Changed backup revision count</description>
+    <time>1767641334.7791</time>
   </revision>
   <Deciso>
     <Proxy>
