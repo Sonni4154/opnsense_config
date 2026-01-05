@@ -2413,7 +2413,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/api/cron/settings/addJob/ made changes</description>
-    <time>1767642975.7536</time>
+    <time>1767643004.3163</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3855,6 +3855,19 @@ hub-data.crowdsec.net</content>
           <command>syslog archive</command>
           <parameters/>
           <description>rotate logs</description>
+        </job>
+        <job uuid="d5afe045-0dd3-49da-aa7d-605a06522e5b">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>0</minutes>
+          <hours>0</hours>
+          <days>1</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>zfs trim</command>
+          <parameters/>
+          <description>zfs trim</description>
         </job>
       </jobs>
     </cron>
