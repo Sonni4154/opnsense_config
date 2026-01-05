@@ -187,6 +187,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDriveBackupCount>60</GDriveBackupCount>
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
+    <backupcount>50</backupcount>
   </system>
   <interfaces>
     <wan>
@@ -2411,8 +2412,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1767642554.7386</time>
+    <description>Changed backup revision count</description>
+    <time>1767642600.1428</time>
   </revision>
   <Deciso>
     <Proxy>
