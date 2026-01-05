@@ -91,8 +91,11 @@
         <enabled>1</enabled>
         <url>ssh://git@github.com/Sonni4154/opnsense.git</url>
         <branch>master</branch>
-        <privkey>/root/.ssh/opnsense_backup&#13;
-</privkey>
+        <privkey>b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW&#13;
+QyNTUxOQAAACBmPDFTbmRkbsl1E+PU4avZkX1lThJs12sdfmyOw7QOawAAAKCEPYKthD2C&#13;
+rQAAAAtzc2gtZWQyNTUxOQAAACBmPDFTbmRkbsl1E+PU4avZkX1lThJs12sdfmyOw7QOaw&#13;
+AAAEBCgxY0qSrTamG/K5/lkbB1WjFSrKqi/RV4K8WH4/aG42Y8MVNuZGRuyXUT49Thq9mR&#13;
+fWVOEmzXax1+bI7DtA5rAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQIDBAUG</privkey>
         <user>sonni4154</user>
         <password>Trustno2$$$</password>
       </git>
@@ -2356,7 +2359,7 @@
   <revision>
     <username>root@10.10.99.99</username>
     <description>/diag_backup.php made changes</description>
-    <time>1767641288.781</time>
+    <time>1767641309.8837</time>
   </revision>
   <Deciso>
     <Proxy>
