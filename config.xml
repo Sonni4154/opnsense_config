@@ -2413,7 +2413,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1767684360.3545</time>
+    <time>1767685080.3869</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4723,6 +4723,10 @@ hub-data.crowdsec.net</content>
       <ban uuid="d6ecad42-58b4-43ce-ae53-96c24691ee4c">
         <ip>104.23.160.189</ip>
         <time>1767684360</time>
+      </ban>
+      <ban uuid="7adcdb87-9724-4902-acd8-bcd2a3eed727">
+        <ip>172.70.248.131</ip>
+        <time>1767685080</time>
       </ban>
     </Nginx>
     <monit version="1.0.13">
