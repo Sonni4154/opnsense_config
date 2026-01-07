@@ -375,6 +375,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <mac>c8:5a:cf:61:7e:68</mac>
         <ipaddr>10.10.10.65</ipaddr>
         <descr>HP M404DN Laserjet Printer</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -2411,9 +2412,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1767748860.3811</time>
+    <username>root@10.10.10.125</username>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1767767228.4518</time>
   </revision>
   <Deciso>
     <Proxy>
