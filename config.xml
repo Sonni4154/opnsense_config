@@ -2412,9 +2412,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.10.125</username>
-    <description>/services_dhcp_edit.php made changes</description>
-    <time>1767767228.4518</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
+    <time>1767780900.4096</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4980,6 +4980,10 @@ hub-data.crowdsec.net</content>
       <ban uuid="12a397fa-40f4-47de-b3c8-07eebd7082bb">
         <ip>104.23.160.37</ip>
         <time>1767748860</time>
+      </ban>
+      <ban uuid="16a8fe96-c794-45e7-bf7a-1c22e520ea6a">
+        <ip>104.23.166.93</ip>
+        <time>1767780900</time>
       </ban>
     </Nginx>
     <monit version="1.0.13">
