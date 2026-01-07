@@ -2413,7 +2413,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1767685080.3869</time>
+    <time>1767748860.3811</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4727,6 +4727,258 @@ hub-data.crowdsec.net</content>
       <ban uuid="7adcdb87-9724-4902-acd8-bcd2a3eed727">
         <ip>172.70.248.131</ip>
         <time>1767685080</time>
+      </ban>
+      <ban uuid="ffbc1a8f-01bc-42b0-8298-372c421552aa">
+        <ip>104.23.160.186</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="205216e0-b7d9-4f17-9177-291df2efd237">
+        <ip>172.68.174.203</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="16028a6d-87b2-4436-aedf-a9dd7a4c504a">
+        <ip>104.23.160.248</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="1942f797-bb78-4895-bc8d-6a66ca4929ab">
+        <ip>104.23.160.116</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="26f6f9c6-15c0-465f-b312-64d96e0c3cd9">
+        <ip>104.23.160.213</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="fa628d02-c7d2-413d-85b6-bbf1d11d638b">
+        <ip>172.68.175.18</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="5666ccb0-ef88-4aa6-b105-271088964276">
+        <ip>172.68.175.83</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="2b56c625-708f-43cc-ba5a-d9a7ed176652">
+        <ip>172.68.174.230</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="dd9022cf-4f4e-48c6-ab0a-1d85d67ba021">
+        <ip>172.68.175.21</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="5b74ef0b-ef5c-49d7-9249-9cacf2fc061a">
+        <ip>104.23.160.60</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="d1029e62-0d91-4970-a855-66184ba3c1f4">
+        <ip>172.68.175.115</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="700d51bf-8b7e-495f-8966-10c23aea52d2">
+        <ip>172.68.174.81</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="465916b9-a026-46ba-ac9a-7ec7181f6d16">
+        <ip>104.23.160.41</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="edbe6d82-aa42-4af1-a81a-fd4270df0383">
+        <ip>104.23.160.85</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="1c342db4-82aa-43ce-bb89-8f9af746d9d6">
+        <ip>172.68.174.197</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="17739902-8bef-4115-92fd-a50bf79d4d63">
+        <ip>104.23.160.238</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="35242bbb-b31b-424c-a66a-5438f26d5e66">
+        <ip>104.23.160.188</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="70ada0a2-b71a-4052-8a72-6c09f2abc3cc">
+        <ip>172.68.175.43</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="ec8b16db-0096-4c4b-8fd1-0f6138c41268">
+        <ip>172.68.174.106</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="c800c681-819a-4bf3-9e04-936cbae2f58e">
+        <ip>172.68.174.139</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="1d2d7f96-e784-4e46-9400-051dcd2a0108">
+        <ip>104.23.160.149</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="2edd4f6d-1b8f-43f0-878e-6e0516abb922">
+        <ip>172.68.174.98</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="c4629436-f5c0-4230-b960-561a4dfa2d78">
+        <ip>172.68.174.251</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="5edf1055-1792-4a4e-966e-513f50184bea">
+        <ip>172.68.175.73</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="014d45f0-23e2-4c32-9f5a-3f4118523bbf">
+        <ip>172.68.174.116</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="3b257626-bcf3-4f72-9574-4f61a2e08ca8">
+        <ip>172.68.175.108</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="7c2b488e-4895-4231-85b7-cacfdd2d1dda">
+        <ip>172.68.175.61</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="da131dc5-d277-4212-ad15-980f37407315">
+        <ip>172.68.175.40</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="310875a7-6678-419d-b161-aabd52541144">
+        <ip>104.23.160.230</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="286ddc73-57e0-4896-bc3d-8cd63f5277a9">
+        <ip>172.68.175.75</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="3ad371c3-d47b-4e7b-bbb4-7c939a5af804">
+        <ip>172.68.174.112</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="cfef7e77-d41e-41d7-ad86-0b501e1f572d">
+        <ip>172.68.175.41</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="9767f0c0-5194-493e-892b-d9fbb3c059b5">
+        <ip>172.68.174.105</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="37c2bc0f-d37a-440a-b866-a5cdae93396b">
+        <ip>104.23.160.143</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="a7aa0711-4f67-4403-96aa-7e01175ee726">
+        <ip>172.68.175.94</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="e0eb9257-627a-4b1f-bdd3-027e4e65497e">
+        <ip>172.68.174.180</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="e902685f-5d9d-433a-856a-0fc4df5b9df8">
+        <ip>104.23.160.251</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="15c03380-11c4-403d-85eb-cf5c8cc9ee27">
+        <ip>104.23.160.92</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="9e286294-250e-4e81-9c63-f778d7b47c07">
+        <ip>172.68.174.126</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="3adf9e09-752a-46e6-956b-d06b08e52532">
+        <ip>172.68.174.200</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="c8a4b0fb-562c-4163-aebf-3fe6c0b4c7f0">
+        <ip>172.68.174.136</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="26fe774f-f9c6-4824-8d2b-f245df18d1b3">
+        <ip>172.68.174.95</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="f66b744b-feb7-46e4-a64c-e1cae5af8112">
+        <ip>104.23.160.19</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="c0874f80-c642-4a97-9212-b44ee6c72f88">
+        <ip>172.68.174.211</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="6781bf71-0c52-47b7-97b1-8a014d8cfdac">
+        <ip>172.68.175.87</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="2d918579-80a7-4445-8cee-f5be16b0fa7b">
+        <ip>172.68.174.114</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="26360160-f568-4257-a3e9-7356e0d7d5fd">
+        <ip>104.23.160.173</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="c2141fbc-4056-4352-a756-ee51288a4438">
+        <ip>104.23.160.50</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="8e45ac80-125b-46be-9854-1a2b1fc91de1">
+        <ip>104.23.160.165</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="b3984956-c79f-4c12-912c-d744e0803814">
+        <ip>172.68.175.53</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="345c9ea0-924b-4ca7-913e-80a9b7abc421">
+        <ip>172.68.174.219</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="6ebf4d61-96ad-44a3-8c15-c680e24eafd8">
+        <ip>104.23.160.175</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="86564a17-6133-49fb-8d32-962004562c1d">
+        <ip>172.68.175.31</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="d2a0a875-8585-4a4b-8d5a-81a155c549f7">
+        <ip>172.68.174.132</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="3effab85-454f-44ce-8dbc-92fc5619f824">
+        <ip>172.68.174.140</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="12a2fc17-47de-43ab-b89e-a01950c903b1">
+        <ip>172.68.174.91</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="33e7e435-b383-46bf-9632-70233d333e4e">
+        <ip>104.23.160.35</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="b718754f-03e7-4cea-9dda-26dcbd9dfe58">
+        <ip>104.23.160.169</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="6ed78701-0e87-4095-b628-4ca7914520bc">
+        <ip>104.23.160.5</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="826b7ce5-1db0-4c61-be46-b9b057343cb8">
+        <ip>104.23.160.137</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="71cd4b43-e316-452c-8c28-057a6c44312d">
+        <ip>104.23.160.207</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="ac8ba7c1-b4ba-4e33-b020-4544670b242b">
+        <ip>104.23.160.83</ip>
+        <time>1767748860</time>
+      </ban>
+      <ban uuid="12a397fa-40f4-47de-b3c8-07eebd7082bb">
+        <ip>104.23.160.37</ip>
+        <time>1767748860</time>
       </ban>
     </Nginx>
     <monit version="1.0.13">
