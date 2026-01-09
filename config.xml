@@ -1219,6 +1219,28 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_6960927c36d082.34442050</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>lan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.10.25.102</address>
+        <port>30402</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.10.10.125</username>
+        <time>1767936636.2246</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="51b9cbf7-859e-4b28-9319-37462471cac4">
       <type>pass</type>
       <interface>lan</interface>
@@ -2459,28 +2481,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_6960927c36d082.34442050</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>lan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.10.25.102</address>
-        <port>30402</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@10.10.10.125</username>
-        <time>1767936636.2246</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -2492,8 +2492,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.125</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1767936638.5349</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1767936688.7321</time>
   </revision>
   <Deciso>
     <Proxy>
