@@ -1839,6 +1839,33 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="9bd9c237-c7fe-497e-a004-2a8978d8a4b3">
+      <type>pass</type>
+      <interface>opt2</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>runner to postgresl</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>10.10.25.102</address>
+      </source>
+      <destination>
+        <address>10.10.10.55</address>
+        <port>30402</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.125</username>
+        <time>1767936562.2362</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.125</username>
+        <time>1767936562.2362</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="28e5e9ab-ef12-4309-b193-6c6edc4226e9">
       <type>pass</type>
       <interface>opt3</interface>
@@ -2412,9 +2439,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1767909180.3956</time>
+    <username>root@10.10.10.125</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1767936562.4377</time>
   </revision>
   <Deciso>
     <Proxy>
