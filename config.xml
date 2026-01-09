@@ -1219,7 +1219,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </created>
       <disabled>1</disabled>
     </rule>
-    <rule>
+    <rule uuid="8ae4af83-4025-476e-8415-f0cc3ab4ea2c">
       <type>pass</type>
       <associated-rule-id>nat_6960927c36d082.34442050</associated-rule-id>
       <source>
@@ -1639,15 +1639,16 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
-        <address>10.10.25.102</address>
+        <address>10.10.25.102/32</address>
       </source>
       <destination>
-        <address>10.10.10.55</address>
+        <address>10.10.10.55/32</address>
+        <not>1</not>
         <port>30402</port>
       </destination>
       <updated>
         <username>root@10.10.10.125</username>
-        <time>1767936562.2362</time>
+        <time>1767936845.8697</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2492,8 +2493,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.125</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1767936725.6811</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1767936846.0554</time>
   </revision>
   <Deciso>
     <Proxy>
