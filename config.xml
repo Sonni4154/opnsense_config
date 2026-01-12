@@ -2518,7 +2518,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1768115460.3954</time>
+    <time>1768241580.4169</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -5524,6 +5524,110 @@ hub-data.crowdsec.net</content>
       <ban uuid="1f15fbe8-322f-410c-9ab3-9b0d24f4e720">
         <ip>162.158.227.94</ip>
         <time>1768115460</time>
+      </ban>
+      <ban uuid="4fa0da6f-8617-4ce0-aca3-5360330e82c7">
+        <ip>104.23.160.65</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="d2e80177-2e2c-494d-8079-4b7a957b37e6">
+        <ip>172.68.174.67</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="22603072-d5e7-4cca-bbee-6091b56cf740">
+        <ip>172.68.175.49</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="c7001677-7c2b-4005-8f73-8240652782cb">
+        <ip>172.68.174.241</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="5292bb49-0488-4578-ad97-2ef6d7e79622">
+        <ip>104.23.160.246</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="ce50ae09-1c64-4253-8b1c-491f6e289ce1">
+        <ip>172.68.174.145</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="40e069fc-87ea-43dc-b90c-ea2115cf63ba">
+        <ip>104.23.160.243</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="48c2d357-9cff-4440-8fee-5c9d0aaf8e8a">
+        <ip>172.68.175.95</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="80c742f1-8d09-4151-9c47-b85edf33aec2">
+        <ip>172.68.174.181</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="18cae664-1f72-45d7-abff-2a2c36b0477d">
+        <ip>104.23.160.155</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="d98a911a-a431-48a6-bb8c-b4cf7d023c14">
+        <ip>172.68.175.20</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="ea816e75-ea2b-4db5-b207-66fd8a1dccb8">
+        <ip>104.23.160.228</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="df2b75cd-8c56-420c-98f0-7e28f4d79ccb">
+        <ip>172.68.175.97</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="b1775edd-ab8b-4870-8266-6cbfe24f2d19">
+        <ip>104.23.160.32</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="4daa277a-19fa-479b-b25d-e1e19d52293a">
+        <ip>104.23.160.195</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="9c9f61e5-2e9b-48f9-b922-4f0416c84598">
+        <ip>104.23.160.145</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="dd11f66e-41a4-42b2-b261-5b4321abcc94">
+        <ip>104.23.160.166</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="115cda80-b4e4-464c-b11d-1e7303ba4a8e">
+        <ip>172.68.174.154</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="754f07d9-47e5-4cb7-af75-198a418f32f6">
+        <ip>172.68.175.82</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="9a2aca9d-9dc9-46ac-9984-01046714b61f">
+        <ip>104.23.160.225</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="d0da71b4-f1c6-42e5-8913-d90519e48a4c">
+        <ip>104.23.160.123</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="2da7e2a2-93db-4e1f-848a-e8cc0314fcba">
+        <ip>104.23.160.28</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="c3508360-fc5e-48e9-a691-c3671d50e163">
+        <ip>104.23.160.82</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="5b543549-3c46-4159-92cd-17fd2b378df8">
+        <ip>172.68.175.84</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="f0f699d3-d0f7-4e58-b74c-9fce750a1f5b">
+        <ip>172.68.174.138</ip>
+        <time>1768241580</time>
+      </ban>
+      <ban uuid="d389a24f-2f3a-4369-8290-b427e59e2590">
+        <ip>104.23.160.55</ip>
+        <time>1768241580</time>
       </ban>
     </Nginx>
     <monit version="1.0.13">
