@@ -401,7 +401,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <dnsserver>10.10.10.1</dnsserver>
         <ntpserver/>
       </staticmap>
-      <pool/>
     </lan>
     <opt1>
       <staticarp>1</staticarp>
@@ -2528,8 +2527,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/services_dhcp_edit.php made changes</description>
-    <time>1768266713.7108</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1768266921.7108</time>
   </revision>
   <Deciso>
     <Proxy>
