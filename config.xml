@@ -390,6 +390,17 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>74:56:3c:bd:5d:77</mac>
+        <ipaddr>10.10.10.98</ipaddr>
+        <hostname>SONNYTOWER</hostname>
+        <descr>Black Knight 2080Ti</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <gateway>10.10.10.1</gateway>
+        <winsserver/>
+        <dnsserver>10.10.10.1</dnsserver>
+        <ntpserver/>
+      </staticmap>
       <pool/>
     </lan>
     <opt1>
@@ -2516,9 +2527,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1768241580.4169</time>
+    <username>root@10.10.99.99</username>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1768266713.7108</time>
   </revision>
   <Deciso>
     <Proxy>
