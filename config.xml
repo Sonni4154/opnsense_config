@@ -401,6 +401,17 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <dnsserver>10.10.10.1</dnsserver>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>90:09:df:b4:21:c0</mac>
+        <ipaddr>10.10.10.99</ipaddr>
+        <hostname>BOX</hostname>
+        <descr>White Knight (WiFi on LAN)</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <gateway>10.10.10.1</gateway>
+        <winsserver/>
+        <dnsserver>10.10.10.1</dnsserver>
+        <ntpserver/>
+      </staticmap>
     </lan>
     <opt1>
       <staticarp>1</staticarp>
@@ -2527,8 +2538,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1768266921.7108</time>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1768267374.7618</time>
   </revision>
   <Deciso>
     <Proxy>
