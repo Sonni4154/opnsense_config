@@ -391,7 +391,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>74:56:3c:bd:5d:77</mac>
+        <mac>04:d4:c4:b1:95:ea</mac>
         <ipaddr>10.10.10.98</ipaddr>
         <hostname>SONNYTOWER</hostname>
         <descr>Black Knight 2080Ti</descr>
@@ -2537,9 +2537,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.99.99</username>
+    <username>root@10.10.10.99</username>
     <description>/services_dhcp_edit.php made changes</description>
-    <time>1768267374.7618</time>
+    <time>1768269561.5981</time>
   </revision>
   <Deciso>
     <Proxy>
