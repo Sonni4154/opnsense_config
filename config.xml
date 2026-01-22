@@ -1059,6 +1059,36 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>pass</associated-rule-id>
+      <target>10.10.10.55</target>
+      <local-port>30109</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.99</username>
+        <time>1769119662.3017</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.99</username>
+        <time>1769119662.3017</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule uuid="9a0081c9-8021-4de2-8130-febf9f3b9b61">
@@ -2537,9 +2567,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/nginx/ngx_autoblock.php made changes</description>
-    <time>1768589280.4187</time>
+    <username>root@10.10.10.99</username>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1769119662.5587</time>
   </revision>
   <Deciso>
     <Proxy>
