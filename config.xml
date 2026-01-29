@@ -2571,8 +2571,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/nginx/settings/setupstream/2fc2f37d-207e-4534-9370-7235adc94f73 made changes</description>
-    <time>1769686222.378</time>
+    <description>/api/nginx/settings/setlocation/c8a03956-eb8a-45c2-a2a2-d79eedb448ed made changes</description>
+    <time>1769686776.3227</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4138,7 +4138,7 @@ hub-data.crowdsec.net</content>
         <authbasic/>
         <authbasicuserfile/>
         <advanced_acl>0</advanced_acl>
-        <force_https>0</force_https>
+        <force_https>1</force_https>
         <php_enable>0</php_enable>
         <php_override_scriptname/>
         <limit_request_connections/>
