@@ -1154,6 +1154,60 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     </rule>
   </nat>
   <filter>
+    <rule uuid="0d752e2d-bfc6-4437-944b-35406bd8da20">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>(HTTPS)</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1769692104.2165</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769692104.2165</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="21fd5581-fe00-46d2-9af5-b37c3e90c782">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>(HTTPS)</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>80</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1769692117.2883</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769692117.2883</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="5cca253d-a102-4dfb-a766-1fe024e4b063">
       <type>pass</type>
       <associated-rule-id>nat_697b4e815a2a38.20048618</associated-rule-id>
@@ -1400,60 +1454,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <created>
         <username>root@10.10.99.99</username>
         <time>1769692004.4183</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="0d752e2d-bfc6-4437-944b-35406bd8da20">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>(HTTPS)</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>wanip</network>
-        <port>443</port>
-      </destination>
-      <updated>
-        <username>root@10.10.99.99</username>
-        <time>1769692104.2165</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1769692104.2165</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="21fd5581-fe00-46d2-9af5-b37c3e90c782">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>(HTTPS)</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>wanip</network>
-        <port>80</port>
-      </destination>
-      <updated>
-        <username>root@10.10.99.99</username>
-        <time>1769692117.2883</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1769692117.2883</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -2781,8 +2781,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1769692117.4798</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1769692184.3171</time>
   </revision>
   <Deciso>
     <Proxy>
