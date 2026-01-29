@@ -1132,7 +1132,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <tagged/>
       <poolopts/>
       <associated-rule-id>nat_697b4e92a63656.17900161</associated-rule-id>
-      <target>10.10.10.55</target>
+      <target>10.10.10.148</target>
       <local-port>30021</local-port>
       <source>
         <any>1</any>
@@ -1143,7 +1143,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </destination>
       <updated>
         <username>root@10.10.99.99</username>
-        <time>1769688722.6809</time>
+        <time>1769691855.7905</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -1187,7 +1187,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <protocol>tcp</protocol>
       <ipprotocol>inet</ipprotocol>
       <destination>
-        <address>10.10.10.55</address>
+        <address>10.10.10.148</address>
         <port>30021</port>
       </destination>
       <descr>NPM HTTP</descr>
@@ -2702,7 +2702,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/firewall_nat_edit.php made changes</description>
-    <time>1769691847.0096</time>
+    <time>1769691855.9836</time>
   </revision>
   <Deciso>
     <Proxy>
