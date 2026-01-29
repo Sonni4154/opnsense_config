@@ -1059,6 +1059,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <time>1767936636.2247</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>tcp</protocol>
@@ -1292,6 +1293,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <time>1767936636.2246</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="51b9cbf7-859e-4b28-9319-37462471cac4">
       <type>pass</type>
@@ -2570,7 +2572,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
-    <time>1769685520.492</time>
+    <time>1769685521.8337</time>
   </revision>
   <Deciso>
     <Proxy>
