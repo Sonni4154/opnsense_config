@@ -2571,8 +2571,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_nat_edit.php made changes</description>
-    <time>1769685556.6464</time>
+    <description>/api/nginx/settings/sethttpserver/124b22c6-6191-4100-a4f6-f681b58018ff made changes</description>
+    <time>1769685958.5591</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4167,7 +4167,7 @@ hub-data.crowdsec.net</content>
         <syslog_targets/>
         <listen_http_address>80</listen_http_address>
         <listen_https_address>443</listen_https_address>
-        <default_server>0</default_server>
+        <default_server>1</default_server>
         <tls_reject_handshake>0</tls_reject_handshake>
         <proxy_protocol>0</proxy_protocol>
         <trusted_proxies/>
