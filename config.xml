@@ -2571,8 +2571,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/nginx/settings/setupstreamserver/d65c0a19-7ea9-4ac4-be9e-7ff35f4fa677 made changes</description>
-    <time>1769687496.1133</time>
+    <description>/api/nginx/settings/sethttpserver/124b22c6-6191-4100-a4f6-f681b58018ff made changes</description>
+    <time>1769687579.4502</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4184,7 +4184,7 @@ hub-data.crowdsec.net</content>
         <log_handshakes>1</log_handshakes>
         <enable_acme_support>1</enable_acme_support>
         <charset>utf-8</charset>
-        <https_only>1</https_only>
+        <https_only>0</https_only>
         <tls_protocols>TLSv1.2,TLSv1.3</tls_protocols>
         <tls_ciphers>ECDHE-ECDSA-CAMELLIA256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-CAMELLIA256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-CAMELLIA128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-CAMELLIA128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-CAMELLIA256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-CAMELLIA256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-CAMELLIA128-SHA256:ECDHE-RSA-AES128-SHA256</tls_ciphers>
         <tls_ecdh_curve/>
