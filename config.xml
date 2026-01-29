@@ -1377,6 +1377,32 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule uuid="6187a35f-7a91-4d57-80d7-bc11d480874d">
+      <type>pass</type>
+      <interface>wan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>wanip</network>
+      </source>
+      <destination>
+        <address>10.10.10.148</address>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1769692004.4183</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769692004.4183</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="d15e1a1f-a5a4-4ff9-bf62-9bffe7fef0fe">
       <type>pass</type>
       <interface>lan</interface>
@@ -2701,8 +2727,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1769691862.4624</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769692004.6097</time>
   </revision>
   <Deciso>
     <Proxy>
