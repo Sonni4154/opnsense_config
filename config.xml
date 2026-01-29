@@ -1333,6 +1333,50 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule uuid="5cca253d-a102-4dfb-a766-1fe024e4b063">
+      <type>pass</type>
+      <associated-rule-id>nat_697b4e815a2a38.20048618</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.10.10.55</address>
+        <port>30022</port>
+      </destination>
+      <descr>NPM HTTPS</descr>
+      <category/>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769688705.3693</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="6351fed5-d808-4359-9512-064cf5b1c62d">
+      <type>pass</type>
+      <associated-rule-id>nat_697b4e92a63656.17900161</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.10.10.55</address>
+        <port>30021</port>
+      </destination>
+      <descr>NPM HTTP</descr>
+      <category/>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769688722.6808</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="8ae4af83-4025-476e-8415-f0cc3ab4ea2c">
       <type>pass</type>
       <associated-rule-id>nat_6960927c36d082.34442050</associated-rule-id>
@@ -1557,6 +1601,32 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <created>
         <username>root@10.10.10.125</username>
         <time>1767936948.8764</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="4c67036d-4fba-4a5c-8272-76cb6364cee2">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>10.10.10.55</address>
+      </source>
+      <destination>
+        <address>10.10.10.55</address>
+        <port>80-443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1769689662.4714</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769689662.4714</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -2621,50 +2691,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_697b4e815a2a38.20048618</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.10.10.55</address>
-        <port>30022</port>
-      </destination>
-      <descr>NPM HTTPS</descr>
-      <category/>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1769688705.3693</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_697b4e92a63656.17900161</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>10.10.10.55</address>
-        <port>30021</port>
-      </destination>
-      <descr>NPM HTTP</descr>
-      <category/>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1769688722.6808</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -2676,8 +2702,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1769689572.3096</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769689662.6622</time>
   </revision>
   <Deciso>
     <Proxy>
