@@ -1122,6 +1122,36 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <protocol>tcp</protocol>
+      <interface>wan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr>NPM HTTP</descr>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_697b4e92a63656.17900161</associated-rule-id>
+      <target>10.10.10.55</target>
+      <local-port>30021</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>80</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1769688722.6809</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769688722.6809</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </nat>
   <filter>
     <rule uuid="9a0081c9-8021-4de2-8130-febf9f3b9b61">
@@ -2613,6 +2643,28 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_697b4e92a63656.17900161</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.10.10.55</address>
+        <port>30021</port>
+      </destination>
+      <descr>NPM HTTP</descr>
+      <category/>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769688722.6808</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -2625,7 +2677,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/firewall_nat_edit.php made changes</description>
-    <time>1769688705.5621</time>
+    <time>1769688722.8769</time>
   </revision>
   <Deciso>
     <Proxy>
