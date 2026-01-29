@@ -1613,15 +1613,14 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
-        <address>10.10.10.55</address>
+        <address>10.10.10.55/32</address>
       </source>
       <destination>
-        <address>10.10.10.55</address>
-        <port>80-443</port>
+        <address>10.10.10.55/32</address>
       </destination>
       <updated>
         <username>root@10.10.99.99</username>
-        <time>1769689662.4714</time>
+        <time>1769690611.5393</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -2702,8 +2701,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769690515.1849</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769690611.7308</time>
   </revision>
   <Deciso>
     <Proxy>
