@@ -1090,6 +1090,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <time>1769119662.3017</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
   </nat>
   <filter>
@@ -2571,8 +2572,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/nginx/settings/set made changes</description>
-    <time>1769688151.0902</time>
+    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
+    <time>1769688549.8303</time>
   </revision>
   <Deciso>
     <Proxy>
