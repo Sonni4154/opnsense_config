@@ -1071,8 +1071,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <tagged/>
       <poolopts/>
       <associated-rule-id>pass</associated-rule-id>
-      <target>10.10.10.55</target>
-      <local-port>30109</local-port>
+      <target>10.10.10.1</target>
+      <local-port>443</local-port>
       <source>
         <any>1</any>
       </source>
@@ -1081,8 +1081,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <port>443</port>
       </destination>
       <updated>
-        <username>root@10.10.10.99</username>
-        <time>1769119662.3017</time>
+        <username>root@10.10.99.99</username>
+        <time>1769685556.4547</time>
         <description>/firewall_nat_edit.php made changes</description>
       </updated>
       <created>
@@ -2571,8 +2571,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
-    <time>1769685521.8337</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1769685556.6464</time>
   </revision>
   <Deciso>
     <Proxy>
