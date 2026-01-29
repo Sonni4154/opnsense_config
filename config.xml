@@ -2571,8 +2571,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/nginx/settings/setupstreamserver/d65c0a19-7ea9-4ac4-be9e-7ff35f4fa677 made changes</description>
-    <time>1769687060.1321</time>
+    <description>/api/nginx/settings/setlocation/c8a03956-eb8a-45c2-a2a2-d79eedb448ed made changes</description>
+    <time>1769687212.6137</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4154,8 +4154,8 @@ hub-data.crowdsec.net</content>
         <proxy_ignore_client_abort>0</proxy_ignore_client_abort>
         <proxy_request_buffering>1</proxy_request_buffering>
         <proxy_buffering>1</proxy_buffering>
-        <proxy_read_timeout/>
-        <proxy_send_timeout/>
+        <proxy_read_timeout>600</proxy_read_timeout>
+        <proxy_send_timeout>600</proxy_send_timeout>
         <ip_acl/>
         <satisfy/>
         <proxy_max_temp_file_size/>
