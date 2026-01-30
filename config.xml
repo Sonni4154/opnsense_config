@@ -2209,6 +2209,32 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="a11e2e56-77e1-492e-8d11-5cecda8ac17f">
+      <type>pass</type>
+      <interface>opt2</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>n8n to ollama</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>10.10.99.99</address>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1769735136.1813</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1769735136.1813</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="28e5e9ab-ef12-4309-b193-6c6edc4226e9">
       <type>pass</type>
       <interface>opt3</interface>
@@ -2783,8 +2809,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769692189.9385</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1769735136.3889</time>
   </revision>
   <Deciso>
     <Proxy>
