@@ -338,6 +338,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <lan>
       <enable>1</enable>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <tftp>10.10.25.15</tftp>
+      <bootfilename>pxelinux.0</bootfilename>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -2809,8 +2811,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1769735145.9662</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1769856487.1356</time>
   </revision>
   <Deciso>
     <Proxy>
