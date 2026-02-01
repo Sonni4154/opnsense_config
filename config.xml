@@ -1064,6 +1064,36 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     </rule>
     <rule>
       <protocol>tcp</protocol>
+      <interface>lan</interface>
+      <category/>
+      <ipprotocol>inet</ipprotocol>
+      <descr/>
+      <tag/>
+      <tagged/>
+      <poolopts/>
+      <associated-rule-id>nat_697f405f842954.41407774</associated-rule-id>
+      <target>10.10.10.98</target>
+      <local-port>443</local-port>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>wanip</network>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.140</username>
+        <time>1769947231.5415</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.140</username>
+        <time>1769947231.5415</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule>
+      <protocol>tcp</protocol>
       <interface>wan</interface>
       <category/>
       <ipprotocol>inet</ipprotocol>
@@ -2799,6 +2829,28 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule>
+      <type>pass</type>
+      <associated-rule-id>nat_697f405f842954.41407774</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>lan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>10.10.10.98</address>
+        <port>443</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@10.10.10.140</username>
+        <time>1769947231.5414</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -2810,8 +2862,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.140</username>
-    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
-    <time>1769947095.4027</time>
+    <description>/firewall_nat_edit.php made changes</description>
+    <time>1769947231.7402</time>
   </revision>
   <Deciso>
     <Proxy>
