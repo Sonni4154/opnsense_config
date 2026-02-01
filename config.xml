@@ -1123,6 +1123,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <time>1769688705.3694</time>
         <description>/firewall_nat_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule>
       <protocol>tcp</protocol>
@@ -2810,9 +2811,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.99.99</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1769856487.1356</time>
+    <username>root@10.10.10.140</username>
+    <description>Firewall: NAT: Port Forward, toggle NAT rule</description>
+    <time>1769947077.0845</time>
   </revision>
   <Deciso>
     <Proxy>
