@@ -340,6 +340,14 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <tftp>10.10.25.15</tftp>
       <bootfilename>pxelinux.0</bootfilename>
+      <netboot>1</netboot>
+      <nextserver>10.10.99.99</nextserver>
+      <filename>iventoy_client</filename>
+      <filename32>iventoy_client</filename32>
+      <filename64>iventoy_client</filename64>
+      <filename32arm>iventoy_client</filename32arm>
+      <filename64arm>iventoy_client</filename64arm>
+      <filenameipxe>iventoy_client</filenameipxe>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -2911,9 +2919,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.10.140</username>
-    <description>/firewall_nat.php made changes</description>
-    <time>1769947267.4371</time>
+    <username>root@10.10.99.99</username>
+    <description>/services_dhcp.php made changes</description>
+    <time>1770100399.3993</time>
   </revision>
   <Deciso>
     <Proxy>
