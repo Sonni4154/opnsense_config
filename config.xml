@@ -1876,6 +1876,33 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="90d15573-b5a8-4ffb-95c6-ad8ab0b34a63">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow iVentoy web interface</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <address>10.10.99.99/24</address>
+        <port>26000</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1770100622.2281</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1770100622.2281</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="8f3c30f8-9fa4-4286-a124-9aef2a3b8a70">
       <type>pass</type>
       <interface>opt1</interface>
@@ -2975,7 +3002,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1770100575.6339</time>
+    <time>1770100622.4315</time>
   </revision>
   <Deciso>
     <Proxy>
