@@ -1527,6 +1527,114 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="34f9ec42-2ab8-4b20-a267-b375df2ddb68">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow PXE DHCP to iVentoy</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <address>10.10.99.99/24</address>
+        <port>67-68</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1770100531.6366</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1770100531.6366</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="86f253b5-bf8c-4f9d-9365-71f2ca6d07e1">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow PXE TFTP to iVentoy</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <address>10.10.99.99</address>
+        <port>69</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1770100575.438</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1770100575.438</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="90d15573-b5a8-4ffb-95c6-ad8ab0b34a63">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow iVentoy web interface</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <address>10.10.99.99/24</address>
+        <port>26000</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1770100622.2281</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1770100622.2281</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
+    <rule uuid="82cc7166-c488-4a03-a8d1-f1f0965858e0">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow iVentoy HTTP Boot</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <address>10.10.99.99/24</address>
+        <port>80-443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1770100672.5028</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1770100672.5028</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="d15e1a1f-a5a4-4ff9-bf62-9bffe7fef0fe">
       <type>pass</type>
       <interface>lan</interface>
@@ -1820,114 +1928,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <username>root@10.10.10.140</username>
         <time>1769947263.2639</time>
         <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="34f9ec42-2ab8-4b20-a267-b375df2ddb68">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow PXE DHCP to iVentoy</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>udp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>10.10.99.99/24</address>
-        <port>67-68</port>
-      </destination>
-      <updated>
-        <username>root@10.10.99.99</username>
-        <time>1770100531.6366</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1770100531.6366</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="86f253b5-bf8c-4f9d-9365-71f2ca6d07e1">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow PXE TFTP to iVentoy</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>udp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>10.10.99.99</address>
-        <port>69</port>
-      </destination>
-      <updated>
-        <username>root@10.10.99.99</username>
-        <time>1770100575.438</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1770100575.438</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="90d15573-b5a8-4ffb-95c6-ad8ab0b34a63">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow iVentoy web interface</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>10.10.99.99/24</address>
-        <port>26000</port>
-      </destination>
-      <updated>
-        <username>root@10.10.99.99</username>
-        <time>1770100622.2281</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1770100622.2281</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="82cc7166-c488-4a03-a8d1-f1f0965858e0">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Allow iVentoy HTTP Boot</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <address>10.10.99.99/24</address>
-        <port>80-443</port>
-      </destination>
-      <updated>
-        <username>root@10.10.99.99</username>
-        <time>1770100672.5028</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1770100672.5028</time>
-        <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
     <rule uuid="8f3c30f8-9fa4-4286-a124-9aef2a3b8a70">
@@ -3028,8 +3028,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1770100672.6995</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1770100686.1938</time>
   </revision>
   <Deciso>
     <Proxy>
