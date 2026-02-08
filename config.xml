@@ -3028,8 +3028,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1770100686.1938</time>
+    <description>/api/diagnostics/netflow/setconfig made changes</description>
+    <time>1770526379.9326</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3945,7 +3945,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     </Gateways>
     <Netflow version="1.0.1">
       <capture>
-        <interfaces/>
+        <interfaces>wan</interfaces>
         <egress_only/>
         <version>v9</version>
         <targets/>
