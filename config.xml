@@ -3029,7 +3029,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/api/diagnostics/netflow/setconfig made changes</description>
-    <time>1770526379.9326</time>
+    <time>1770526395.9678</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3945,8 +3945,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     </Gateways>
     <Netflow version="1.0.1">
       <capture>
-        <interfaces>wan</interfaces>
-        <egress_only/>
+        <interfaces>opt4,opt2,opt8,opt7,opt5,lan,opt1,opt3,wan,opt6</interfaces>
+        <egress_only>wan</egress_only>
         <version>v9</version>
         <targets/>
       </capture>
