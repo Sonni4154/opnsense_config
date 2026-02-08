@@ -3029,7 +3029,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1770526958.98</time>
+    <time>1770548887.09</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -6711,7 +6711,7 @@ hub-data.crowdsec.net</content>
       <preSharedKeys/>
     </IPsec>
     <crowdsec>
-      <general version="1.0.11" persisted_at="1770526958.97">
+      <general version="1.0.12" persisted_at="1770548887.09">
         <agent_enabled>1</agent_enabled>
         <lapi_enabled>1</lapi_enabled>
         <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
