@@ -3028,8 +3028,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1770526588.6097</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1770526958.98</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3329,7 +3329,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <p_ipstats>0</p_ipstats>
       </general>
     </collectd>
-    <AcmeClient version="4.2.0">
+    <AcmeClient version="4.3.0" persisted_at="1770526955.87">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -3614,6 +3614,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
           <dns_nic_password/>
           <dns_nic_client/>
           <dns_nic_secret/>
+          <dns_websupport_api_key/>
+          <dns_websupport_api_secret/>
           <dns_world4you_username/>
           <dns_world4you_password/>
           <dns_aurora_key/>
@@ -3864,6 +3866,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
           <dns_nic_password/>
           <dns_nic_client/>
           <dns_nic_secret/>
+          <dns_websupport_api_key/>
+          <dns_websupport_api_secret/>
           <dns_world4you_username/>
           <dns_world4you_password/>
           <dns_aurora_key/>
@@ -6431,7 +6435,7 @@ hub-data.crowdsec.net</content>
           <http_port>8000</http_port>
         </general>
       </ctrl_agent>
-      <dhcp4 version="1.0.3">
+      <dhcp4 version="1.0.4" persisted_at="1770526957.00">
         <general>
           <enabled>0</enabled>
           <manual_config>0</manual_config>
@@ -6707,7 +6711,7 @@ hub-data.crowdsec.net</content>
       <preSharedKeys/>
     </IPsec>
     <crowdsec>
-      <general version="1.0.10">
+      <general version="1.0.11" persisted_at="1770526958.97">
         <agent_enabled>1</agent_enabled>
         <lapi_enabled>1</lapi_enabled>
         <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
