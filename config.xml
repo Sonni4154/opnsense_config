@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <opnsense>
   <theme>rebellion</theme>
-  <sysctl version="1.0.1">
+  <sysctl version="1.0.2" persisted_at="1770549009.79" description="System Tunables">
     <item uuid="cf2d1c1b-3f6f-499c-9a36-55af16ab6441">
       <tunable>hw.ibrs_disable</tunable>
       <value/>
@@ -3029,7 +3029,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1770548887.09</time>
+    <time>1770549009.86</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3116,6 +3116,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <homeserverpools/>
         <realms/>
       </proxy>
+      <ldapgroup version="1.0.0" persisted_at="1770549006.80" description="FreeRADIUS ldapgroup configuration">
+        <ldapgroups/>
+      </ldapgroup>
     </freeradius>
     <ntopng>
       <general version="0.0.2">
@@ -4314,7 +4317,7 @@ hub-data.crowdsec.net</content>
       <general version="0.0.1">
         <enabled>0</enabled>
       </general>
-      <server version="1.0.0">
+      <server version="1.0.1" persisted_at="1770549007.57" description="WireGuard instance configuration">
         <servers/>
       </server>
       <client version="1.0.0">
@@ -4337,7 +4340,7 @@ hub-data.crowdsec.net</content>
       <ntp>0</ntp>
       <zfs>0</zfs>
     </NodeExporter>
-    <IDS version="1.1.0">
+    <IDS version="1.1.1" persisted_at="1770549007.96" description="Intrusion detection">
       <rules/>
       <policies/>
       <userDefinedRules/>
@@ -4520,10 +4523,10 @@ hub-data.crowdsec.net</content>
         </job>
       </jobs>
     </cron>
-    <Nginx version="1.34">
+    <Nginx version="1.35.1" persisted_at="1770549008.02" description="nginx web server, reverse proxy and waf">
       <general>
         <enabled>0</enabled>
-        <ban_ttl>0</ban_ttl>
+        <ban_ttl>4320</ban_ttl>
       </general>
       <webgui>
         <limitnetworks>0</limitnetworks>
@@ -4537,6 +4540,8 @@ hub-data.crowdsec.net</content>
         <default_type/>
         <server_names_hash_bucket_size/>
         <server_names_hash_max_size/>
+        <variables_hash_max_size/>
+        <variables_hash_bucket_size/>
         <ban_response>403</ban_response>
         <log_perm_ban>0</log_perm_ban>
         <bots_ua>Python-urllib,Nmap,python-requests,libwww-perl,MJ12bot,Jorgee,fasthttp,libwww,Telesphoreo,A6-Indexer,ltx71,okhttp,ZmEu,sqlmap,LMAO/2.0,l9explore,l9tcpid,Masscan,zgrab,Ronin/2.0,Hakai/2.0,Indy\sLibrary,^Mozilla/[\d\.]+$,Morfeus\sFucking\sScanner,MSIE\s[0-6]\.\d+</bots_ua>
@@ -4589,6 +4594,7 @@ hub-data.crowdsec.net</content>
         <cache_methods/>
         <cache_min_uses>1</cache_min_uses>
         <cache_valid/>
+        <proxy_cache_valid/>
         <cache_background_update>0</cache_background_update>
         <cache_lock>0</cache_lock>
         <cache_revalidate>0</cache_revalidate>
@@ -4622,6 +4628,7 @@ hub-data.crowdsec.net</content>
         <proxy_max_temp_file_size/>
         <proxy_ssl_server_name>0</proxy_ssl_server_name>
         <errorpages/>
+        <proxy_intercept_errors>Inherit</proxy_intercept_errors>
       </location>
       <http_server uuid="124b22c6-6191-4100-a4f6-f681b58018ff">
         <servername>n8n.wemakemarin.com</servername>
@@ -4646,6 +4653,7 @@ hub-data.crowdsec.net</content>
         <enable_acme_support>1</enable_acme_support>
         <charset>utf-8</charset>
         <https_only>0</https_only>
+        <http2>1</http2>
         <tls_protocols>TLSv1.2,TLSv1.3</tls_protocols>
         <tls_ciphers>ECDHE-ECDSA-CAMELLIA256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-CAMELLIA256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-CAMELLIA128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-CAMELLIA128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-CAMELLIA256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-CAMELLIA256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-CAMELLIA128-SHA256:ECDHE-RSA-AES128-SHA256</tls_ciphers>
         <tls_ecdh_curve/>
@@ -4671,6 +4679,7 @@ hub-data.crowdsec.net</content>
         <satisfy/>
         <zero_rtt>0</zero_rtt>
         <errorpages/>
+        <proxy_intercept_errors>0</proxy_intercept_errors>
       </http_server>
       <ban uuid="422a439b-ee8a-417e-a92b-76b6f698ec30">
         <ip>172.69.234.157</ip>
@@ -6221,7 +6230,7 @@ hub-data.crowdsec.net</content>
         <time>1769612280</time>
       </ban>
     </Nginx>
-    <monit version="1.0.13">
+    <monit version="1.0.14" persisted_at="1770549008.07" description="Monit settings">
       <general>
         <enabled>0</enabled>
         <interval>120</interval>
@@ -6298,7 +6307,7 @@ hub-data.crowdsec.net</content>
         <type>custom</type>
         <pidfile/>
         <match/>
-        <path>/usr/local/opnsense/scripts/OPNsense/Monit/carp_status</path>
+        <path>/usr/local/opnsense/scripts/monit/carp_status.php</path>
         <timeout>300</timeout>
         <starttimeout>30</starttimeout>
         <address/>
@@ -6316,7 +6325,7 @@ hub-data.crowdsec.net</content>
         <type>custom</type>
         <pidfile/>
         <match/>
-        <path>/usr/local/opnsense/scripts/OPNsense/Monit/gateway_alert</path>
+        <path>/usr/local/opnsense/scripts/monit/gateway_alert.php</path>
         <timeout>300</timeout>
         <starttimeout>30</starttimeout>
         <address/>
@@ -6635,7 +6644,7 @@ hub-data.crowdsec.net</content>
       <VTIs/>
       <SPDs/>
     </Swanctl>
-    <IPsec version="1.0.4">
+    <IPsec version="1.0.5" persisted_at="1770549009.67" description="IPsec settings">
       <general>
         <enabled/>
         <preferred_oldsa>0</preferred_oldsa>
@@ -6659,6 +6668,7 @@ hub-data.crowdsec.net</content>
         <retransmit_base/>
         <retransmit_jitter/>
         <retransmit_limit/>
+        <reqid_base/>
         <syslog>
           <daemon>
             <ike_name>1</ike_name>
@@ -6725,7 +6735,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.12">
+    <unboundplus version="1.0.13" persisted_at="1770549009.86" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -6742,6 +6752,7 @@ hub-data.crowdsec.net</content>
         <noregrecords>0</noregrecords>
         <txtsupport>0</txtsupport>
         <cacheflush>0</cacheflush>
+        <safesearch>0</safesearch>
         <local_zone_type>transparent</local_zone_type>
         <outgoing_interface>opt4,opt2,opt8,opt7,opt5,lan,opt1,opt3,wan,opt6</outgoing_interface>
         <enable_wpad>0</enable_wpad>
@@ -6810,17 +6821,7 @@ hub-data.crowdsec.net</content>
           <description>MGMT DNS Access</description>
         </acl>
       </acls>
-      <dnsbl>
-        <enabled>0</enabled>
-        <safesearch>0</safesearch>
-        <type/>
-        <lists/>
-        <whitelists/>
-        <blocklists/>
-        <wildcards/>
-        <address/>
-        <nxdomain>0</nxdomain>
-      </dnsbl>
+      <dnsbl/>
       <forwarding>
         <enabled>0</enabled>
       </forwarding>
@@ -6835,6 +6836,7 @@ hub-data.crowdsec.net</content>
           <mx/>
           <ttl/>
           <server>10.10.99.10/24</server>
+          <txtdata/>
           <description>Proxmox Host</description>
         </host>
         <host uuid="11099f9f-c8d1-4003-b582-3953883f314c">
@@ -6846,11 +6848,21 @@ hub-data.crowdsec.net</content>
           <mx/>
           <ttl/>
           <server>10.10.10.55</server>
+          <txtdata/>
           <description>TrueNAS Postgres</description>
         </host>
       </hosts>
       <aliases/>
     </unboundplus>
+    <Hostwatch version="1.0.0" persisted_at="1770549008.48" description="Host discovery">
+      <general>
+        <enabled>1</enabled>
+        <promisc>0</promisc>
+        <verbose>0</verbose>
+        <skip_nets/>
+        <interface/>
+      </general>
+    </Hostwatch>
   </OPNsense>
   <laggs version="1.0.0">
     <lagg/>
@@ -6980,7 +6992,7 @@ hub-data.crowdsec.net</content>
       <reverseproxy/>
     </caddy>
   </Pischem>
-  <dnsmasq version="1.0.7">
+  <dnsmasq version="1.0.8" persisted_at="1770549009.53" description="Dnsmasq DNS and DHCP">
     <enable>0</enable>
     <regdhcp>0</regdhcp>
     <regdhcpstatic>0</regdhcpstatic>
@@ -7006,12 +7018,15 @@ hub-data.crowdsec.net</content>
       <no_interface/>
       <fqdn>1</fqdn>
       <domain/>
+      <local>1</local>
       <lease_max/>
       <authoritative>0</authoritative>
       <default_fw_rules>1</default_fw_rules>
       <reply_delay/>
       <enable_ra>0</enable_ra>
       <nosync>0</nosync>
+      <log_dhcp>0</log_dhcp>
+      <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
   </dnsmasq>
