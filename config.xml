@@ -3028,8 +3028,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/diagnostics/netflow/setconfig made changes</description>
-    <time>1770526395.9678</time>
+    <description>/reporting_settings.php made changes</description>
+    <time>1770526414.9158</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -6725,7 +6725,7 @@ hub-data.crowdsec.net</content>
       <general>
         <enabled>1</enabled>
         <port>53</port>
-        <stats>0</stats>
+        <stats>1</stats>
         <active_interface>opt2,lan,opt1</active_interface>
         <dnssec>0</dnssec>
         <dns64>0</dns64>
