@@ -1733,6 +1733,35 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="72cea8a9-2c5a-4b76-8cb1-e1ab98fca833">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Allow lan to frigTe</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>10.10.10.40/32</address>
+        <not>1</not>
+        <port>5000-8971</port>
+      </source>
+      <destination>
+        <network>lan</network>
+        <port>80-443</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.140</username>
+        <time>1770551310.45</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.140</username>
+        <time>1770551310.45</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="c84fc1f7-0275-4803-bf58-db5a6e7ed55a">
       <type>pass</type>
       <interface>lan</interface>
@@ -3027,9 +3056,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1770549009.86</time>
+    <username>root@10.10.10.140</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1770551310.63</time>
   </revision>
   <Deciso>
     <Proxy>
