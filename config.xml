@@ -2808,6 +2808,31 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule uuid="ca5054c7-6d4c-4f3b-91bb-47c086d3466c">
+      <type>pass</type>
+      <interface>opt5</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>RPI Zero W</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>10.10.50.102</address>
+      </source>
+      <destination>
+        <address>Cameras,DNS_SERVERS,wan,lan,lo0,opt5</address>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1770595912.97</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1770595912.97</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="4b14acc8-3be0-4a42-8358-3080a8d524d6">
       <type>pass</type>
       <interface>opt5</interface>
@@ -2879,31 +2904,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <created>
         <username>root@10.10.10.10</username>
         <time>1766153666.1365</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="ca5054c7-6d4c-4f3b-91bb-47c086d3466c">
-      <type>pass</type>
-      <interface>opt5</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>RPI Zero W</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <address>10.10.50.102</address>
-      </source>
-      <destination>
-        <address>Cameras,DNS_SERVERS,wan,lan,lo0,opt5</address>
-      </destination>
-      <updated>
-        <username>root@10.10.99.99</username>
-        <time>1770595912.97</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1770595912.97</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -3093,8 +3093,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1770595913.14</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1770595934.26</time>
   </revision>
   <Deciso>
     <Proxy>
