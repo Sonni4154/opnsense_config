@@ -1562,6 +1562,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <time>1770597071.38</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="34f9ec42-2ab8-4b20-a267-b375df2ddb68">
       <type>pass</type>
@@ -3119,7 +3120,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1770597133.69</time>
+    <time>1770597250.70</time>
   </revision>
   <Deciso>
     <Proxy>
