@@ -587,6 +587,17 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <winsserver/>
       <dnsserver>10.10.50.1</dnsserver>
       <ntpserver/>
+      <staticmap>
+        <mac>00:e0:4c:68:33:1d</mac>
+        <cid>RPI Zero W</cid>
+        <ipaddr>10.10.50.102</ipaddr>
+        <hostname>raspberrypi</hostname>
+        <descr>Raspberry Pi Zero W 32bit - black case</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt5>
     <opt6>
       <enable>1</enable>
@@ -3056,9 +3067,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.10.140</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1770551310.63</time>
+    <username>root@10.10.99.99</username>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1770595747.02</time>
   </revision>
   <Deciso>
     <Proxy>
