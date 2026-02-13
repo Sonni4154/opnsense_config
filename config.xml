@@ -3120,8 +3120,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/netdata/general/set made changes</description>
-    <time>1770948748.82</time>
+    <description>/api/nodeexporter/general/set made changes</description>
+    <time>1770948767.06</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4416,8 +4416,8 @@ hub-data.crowdsec.net</content>
         <clients/>
       </client>
     </wireguard>
-    <NodeExporter version="0.2.0">
-      <enabled>0</enabled>
+    <NodeExporter version="0.2.0" persisted_at="1770948767.06" description="node_exporter - Prometheus exporter for hardware and OS metrics.">
+      <enabled>1</enabled>
       <listenaddress>0.0.0.0</listenaddress>
       <listenport>9100</listenport>
       <cpu>1</cpu>
@@ -4427,7 +4427,7 @@ hub-data.crowdsec.net</content>
       <meminfo>1</meminfo>
       <netdev>1</netdev>
       <time>1</time>
-      <devstat>0</devstat>
+      <devstat>1</devstat>
       <interrupts>0</interrupts>
       <ntp>0</ntp>
       <zfs>0</zfs>
