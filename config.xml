@@ -3120,8 +3120,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1770947430.17</time>
+    <description>/api/netdata/general/set made changes</description>
+    <time>1770948748.82</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3382,8 +3382,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </general>
     </maltrail>
     <netdata>
-      <general version="0.0.1">
-        <enabled>0</enabled>
+      <general version="0.0.1" persisted_at="1770948748.82" description="Netdata configuration">
+        <enabled>1</enabled>
         <listen>127.0.0.1</listen>
         <port>19999</port>
       </general>
