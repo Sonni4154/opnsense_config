@@ -1538,6 +1538,32 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="25329e72-93e1-4c3f-b00d-b5731dfcec8f">
+      <type>pass</type>
+      <interface>lan</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>LAN to campus iii</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <address>10.10.10.40</address>
+      </destination>
+      <updated>
+        <username>root@10.10.10.140</username>
+        <time>1771086252.00</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.140</username>
+        <time>1771086252.00</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="1f436de9-ee1c-47db-a2aa-a3ef5e0d2eaf">
       <type>block</type>
       <interface>lan</interface>
@@ -1994,32 +2020,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <username>root@10.10.10.140</username>
         <time>1769947263.2639</time>
         <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="25329e72-93e1-4c3f-b00d-b5731dfcec8f">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>LAN to campus iii</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>10.10.10.40</address>
-      </destination>
-      <updated>
-        <username>root@10.10.10.140</username>
-        <time>1771086252.00</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.10.140</username>
-        <time>1771086252.00</time>
-        <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
     <rule uuid="8f3c30f8-9fa4-4286-a124-9aef2a3b8a70">
@@ -3146,8 +3146,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.140</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1771086252.17</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1771086333.76</time>
   </revision>
   <Deciso>
     <Proxy>
