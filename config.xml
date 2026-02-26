@@ -203,7 +203,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <landing_page/>
       <comment>Codex CLI</comment>
       <email>spencermreiser@gmail.com</email>
-      <apikeys/>
+      <apikeys>4UsNRsAV6OurZlAXyx2W0czj9QywAcTvni3ekV2Vwty21UpxrcO1Y81VQnMf9Y3nI2KB3t0rmSL05iNP|$6$$1FKTMTED5dfIFZTqevEgBz9taWurjCzAfm7exzW9YxmQMbLw0UofWTcP0r.Hy95UE5qqaeWcG6mKaSaTnReCM0</apikeys>
       <priv/>
       <language/>
       <descr>Spencer Reiser</descr>
@@ -3167,8 +3167,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>user "codex" created</description>
-    <time>1772089876.86</time>
+    <description>/api/auth/user/add_api_key/codex made changes</description>
+    <time>1772089913.07</time>
   </revision>
   <Deciso>
     <Proxy>
