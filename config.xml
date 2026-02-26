@@ -24,7 +24,7 @@
       <scope>system</scope>
       <description>System Administrators</description>
       <priv>page-all</priv>
-      <member>0</member>
+      <member>0,2000</member>
       <source_networks/>
     </group>
     <user uuid="899370f3-3bae-40db-a2b9-03cb289825a8">
@@ -43,6 +43,7 @@
       <email/>
       <apikeys/>
       <priv/>
+      <language/>
       <descr>System Administrator</descr>
       <dashboard/>
     </user>
@@ -188,6 +189,26 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
     <backupcount>50</backupcount>
+    <user uuid="bb2c6a07-25ff-4822-bfa0-e63ae2b8e7be">
+      <uid>2000</uid>
+      <name>codex</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$4orzlBqHui5PaElkxgS6SOrlrCEXeN50ChT1Hp6d0bU7DlRe3Oqqq</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment>Codex CLI</comment>
+      <email>spencermreiser@gmail.com</email>
+      <apikeys/>
+      <priv/>
+      <language/>
+      <descr>Spencer Reiser</descr>
+      <dashboard/>
+    </user>
   </system>
   <interfaces>
     <wan>
@@ -3145,9 +3166,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.10.140</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1771086333.76</time>
+    <username>root@10.10.99.99</username>
+    <description>user "codex" created</description>
+    <time>1772089876.86</time>
   </revision>
   <Deciso>
     <Proxy>
