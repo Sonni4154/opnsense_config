@@ -168,7 +168,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-cache,os-caddy,os-collectd,os-crowdsec,os-ddclient,os-dec-hw,os-dmidecode,os-freeradius,os-gdrive-backup,os-git-backup,os-haproxy,os-igmp-proxy,os-iperf,os-netdata,os-nginx,os-node_exporter,os-ntopng,os-redis,os-tftp,os-theme-rebellion,os-vnstat</plugins>
+      <plugins>os-acme-client,os-cache,os-caddy,os-collectd,os-crowdsec,os-ddclient,os-dec-hw,os-dmidecode,os-freeradius,os-gdrive-backup,os-git-backup,os-haproxy,os-igmp-proxy,os-iperf,os-netdata,os-nginx,os-ntopng,os-redis,os-tftp,os-theme-rebellion,os-vnstat</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -3166,9 +3166,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.10.99</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1774509685.24</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1774509782.17</time>
   </revision>
   <Deciso>
     <Proxy>
