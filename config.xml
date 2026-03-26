@@ -3167,8 +3167,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/unbound/settings/set_host_override/3385d986-ec91-4ebd-8b04-c4ac8267d7ff made changes</description>
-    <time>1774514107.01</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1774514128.02</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -6896,7 +6896,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1774514107.00" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1774514128.02" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -7023,6 +7023,18 @@ hub-data.crowdsec.net</content>
           <server>10.10.10.200</server>
           <txtdata/>
           <description>ops-01 proxmox vm 100</description>
+        </host>
+        <host uuid="f4cec31d-9210-4700-88c3-68496736a162">
+          <enabled>1</enabled>
+          <hostname>core-services</hostname>
+          <domain>home.arpa</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>10.10.10.201</server>
+          <txtdata/>
+          <description>core-services proxmox vm 110</description>
         </host>
       </hosts>
       <aliases/>
