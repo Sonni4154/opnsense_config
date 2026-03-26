@@ -16,7 +16,7 @@
   <system>
     <optimization>conservative</optimization>
     <hostname>opnsense</hostname>
-    <domain>internal</domain>
+    <domain>home.arpa</domain>
     <dnsallowoverride>1</dnsallowoverride>
     <group uuid="bb2a2320-5cdb-44e9-a368-f55a91f80bd3">
       <gid>1999</gid>
@@ -3167,8 +3167,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.99</username>
-    <description>/api/unbound/settings/set_host_override/ec23a405-566a-4ab3-b97f-5942cfe32511 made changes</description>
-    <time>1774510227.96</time>
+    <description>/system_general.php made changes</description>
+    <time>1774510560.32</time>
   </revision>
   <Deciso>
     <Proxy>
