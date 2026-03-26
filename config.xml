@@ -3167,8 +3167,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.99</username>
-    <description>/system_general.php made changes</description>
-    <time>1774509118.09</time>
+    <description>/api/unbound/settings/set made changes</description>
+    <time>1774509177.87</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -6896,12 +6896,12 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1770549009.86" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1774509177.87" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
         <stats>1</stats>
-        <active_interface>opt2,lan,opt1</active_interface>
+        <active_interface>opt2,lan,opt1,opt3,opt6</active_interface>
         <dnssec>0</dnssec>
         <dns64>0</dns64>
         <dns64prefix/>
