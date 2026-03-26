@@ -3167,8 +3167,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.99</username>
-    <description>/api/unbound/settings/set_host_override/ec23a405-566a-4ab3-b97f-5942cfe32511 made changes</description>
-    <time>1774510187.68</time>
+    <description>/api/unbound/settings/set_host_override/f346f4a0-0543-4380-aa12-0a6ebd669d64 made changes</description>
+    <time>1774510191.50</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -6896,7 +6896,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1774510187.68" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1774510191.50" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -7008,7 +7008,7 @@ hub-data.crowdsec.net</content>
           <mxprio/>
           <mx/>
           <ttl/>
-          <server>10.10.10.55/24</server>
+          <server>10.10.10.55</server>
           <txtdata/>
           <description>TrueNAS Server</description>
         </host>
