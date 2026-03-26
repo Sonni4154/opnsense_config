@@ -3167,8 +3167,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.99</username>
-    <description>/api/unbound/settings/set_host_override/ec23a405-566a-4ab3-b97f-5942cfe32511 made changes</description>
-    <time>1774509223.32</time>
+    <description>/api/unbound/settings/toggle_host_override/ec23a405-566a-4ab3-b97f-5942cfe32511 made changes</description>
+    <time>1774509230.83</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -6896,7 +6896,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1774509223.32" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1774509230.83" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -6989,7 +6989,7 @@ hub-data.crowdsec.net</content>
       <dots/>
       <hosts>
         <host uuid="ec23a405-566a-4ab3-b97f-5942cfe32511">
-          <enabled>0</enabled>
+          <enabled>1</enabled>
           <hostname>proxmox</hostname>
           <domain>internal</domain>
           <rr>A</rr>
