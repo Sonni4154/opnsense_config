@@ -3167,8 +3167,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/unbound/settings/add_host_override/ made changes</description>
-    <time>1774514128.02</time>
+    <description>/api/unbound/settings/set_host_override/f4cec31d-9210-4700-88c3-68496736a162 made changes</description>
+    <time>1774514652.31</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -6896,7 +6896,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1774514128.02" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1774514652.31" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -7026,7 +7026,7 @@ hub-data.crowdsec.net</content>
         </host>
         <host uuid="f4cec31d-9210-4700-88c3-68496736a162">
           <enabled>1</enabled>
-          <hostname>core-services</hostname>
+          <hostname>core-services-01</hostname>
           <domain>home.arpa</domain>
           <rr>A</rr>
           <mxprio/>
