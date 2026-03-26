@@ -3166,9 +3166,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1774509857.45</time>
+    <username>root@10.10.10.99</username>
+    <description>/api/clamav/general/set made changes</description>
+    <time>1774509910.05</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3363,9 +3363,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <url version="0.0.1">
         <lists/>
       </url>
-      <general version="1.0.0">
-        <enabled>0</enabled>
-        <fc_enabled>0</fc_enabled>
+      <general version="1.0.0" persisted_at="1774509910.05" description="ClamAV configuration">
+        <enabled>1</enabled>
+        <fc_enabled>1</fc_enabled>
         <enabletcp>1</enabletcp>
         <maxthreads>10</maxthreads>
         <maxqueue>100</maxqueue>
