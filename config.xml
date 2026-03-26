@@ -3167,8 +3167,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.99</username>
-    <description>/api/unbound/settings/del_host_override/11099f9f-c8d1-4003-b582-3953883f314c made changes</description>
-    <time>1774509242.10</time>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1774509288.79</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -6896,7 +6896,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1774509242.10" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1774509288.79" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -6999,6 +6999,18 @@ hub-data.crowdsec.net</content>
           <server>10.10.99.10/24</server>
           <txtdata/>
           <description>Proxmox Host</description>
+        </host>
+        <host uuid="f346f4a0-0543-4380-aa12-0a6ebd669d64">
+          <enabled>1</enabled>
+          <hostname>truenas</hostname>
+          <domain>internal</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>10.10.10.55/24</server>
+          <txtdata/>
+          <description>TrueNAS Server</description>
         </host>
       </hosts>
       <aliases/>
