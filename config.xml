@@ -16,7 +16,7 @@
   <system>
     <optimization>conservative</optimization>
     <hostname>opnsense</hostname>
-    <domain>local.lan</domain>
+    <domain>internal</domain>
     <dnsallowoverride>1</dnsallowoverride>
     <group uuid="bb2a2320-5cdb-44e9-a368-f55a91f80bd3">
       <gid>1999</gid>
@@ -45,6 +45,26 @@
       <priv/>
       <language/>
       <descr>System Administrator</descr>
+      <dashboard/>
+    </user>
+    <user uuid="bb2c6a07-25ff-4822-bfa0-e63ae2b8e7be">
+      <uid>2000</uid>
+      <name>codex</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$4orzlBqHui5PaElkxgS6SOrlrCEXeN50ChT1Hp6d0bU7DlRe3Oqqq</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment>Codex CLI</comment>
+      <email>spencermreiser@gmail.com</email>
+      <apikeys>4UsNRsAV6OurZlAXyx2W0czj9QywAcTvni3ekV2Vwty21UpxrcO1Y81VQnMf9Y3nI2KB3t0rmSL05iNP|$6$$1FKTMTED5dfIFZTqevEgBz9taWurjCzAfm7exzW9YxmQMbLw0UofWTcP0r.Hy95UE5qqaeWcG6mKaSaTnReCM0</apikeys>
+      <priv/>
+      <language/>
+      <descr>Spencer Reiser</descr>
       <dashboard/>
     </user>
     <timezone>America/Los_Angeles</timezone>
@@ -172,7 +192,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <dns6gw>none</dns6gw>
     <dns7gw>none</dns7gw>
     <dns8gw>none</dns8gw>
-    <dnssearchdomain>local.lan,home.arpa</dnssearchdomain>
+    <dnssearchdomain>home.arpa,lan.local</dnssearchdomain>
     <serialspeed>115200</serialspeed>
     <primaryconsole>video</primaryconsole>
     <dhcp6_debug>2</dhcp6_debug>
@@ -189,26 +209,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
     <backupcount>50</backupcount>
-    <user uuid="bb2c6a07-25ff-4822-bfa0-e63ae2b8e7be">
-      <uid>2000</uid>
-      <name>codex</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell/>
-      <password>$2y$11$4orzlBqHui5PaElkxgS6SOrlrCEXeN50ChT1Hp6d0bU7DlRe3Oqqq</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment>Codex CLI</comment>
-      <email>spencermreiser@gmail.com</email>
-      <apikeys>4UsNRsAV6OurZlAXyx2W0czj9QywAcTvni3ekV2Vwty21UpxrcO1Y81VQnMf9Y3nI2KB3t0rmSL05iNP|$6$$1FKTMTED5dfIFZTqevEgBz9taWurjCzAfm7exzW9YxmQMbLw0UofWTcP0r.Hy95UE5qqaeWcG6mKaSaTnReCM0</apikeys>
-      <priv/>
-      <language/>
-      <descr>Spencer Reiser</descr>
-      <dashboard/>
-    </user>
   </system>
   <interfaces>
     <wan>
@@ -3166,9 +3166,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1772870462.48</time>
+    <username>root@10.10.10.99</username>
+    <description>/system_general.php made changes</description>
+    <time>1774509118.09</time>
   </revision>
   <Deciso>
     <Proxy>
