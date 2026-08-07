@@ -382,8 +382,12 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <if>wg0</if>
     </opt10>
     <opt12>
-      <descr>LANTAILS</descr>
       <if>igc3</if>
+      <descr>LANTAILS</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>100.30.30.1</ipaddr>
+      <subnet>24</subnet>
     </opt12>
   </interfaces>
   <dhcpd>
@@ -3261,8 +3265,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1786084885.73</time>
+    <description>/interfaces.php made changes</description>
+    <time>1786084973.16</time>
   </revision>
   <Deciso>
     <Proxy>
