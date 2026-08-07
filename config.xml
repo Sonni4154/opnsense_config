@@ -168,7 +168,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <firmware version="1.0.1">
       <mirror/>
       <flavour/>
-      <plugins>os-acme-client,os-cache,os-caddy,os-clamav,os-collectd,os-crowdsec,os-ddclient,os-dec-hw,os-dmidecode,os-freeradius,os-gdrive-backup,os-git-backup,os-haproxy,os-igmp-proxy,os-iperf,os-netdata,os-nginx,os-ntopng,os-redis,os-tftp,os-theme-rebellion,os-vnstat</plugins>
+      <plugins>os-acme-client,os-cache,os-caddy,os-clamav,os-collectd,os-crowdsec,os-ddclient,os-dec-hw,os-dmidecode,os-freeradius,os-gdrive-backup,os-git-backup,os-haproxy,os-igmp-proxy,os-iperf,os-netdata,os-nginx,os-ntopng,os-redis,os-tailscale,os-tftp,os-theme-rebellion,os-vnstat</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -3225,8 +3225,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1786081221.44</time>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1786081222.56</time>
   </revision>
   <Deciso>
     <Proxy>
