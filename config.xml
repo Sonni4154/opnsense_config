@@ -355,7 +355,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <subnet>24</subnet>
     </opt8>
     <opt9>
-      <if>tailscale0</if>
+      <if>vlan080</if>
       <descr>TAILSCALE</descr>
       <spoofmac/>
       <ipaddr>dhcp</ipaddr>
@@ -3216,8 +3216,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/tailscale/settings/set made changes</description>
-    <time>1786082073.28</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1786082111.79</time>
   </revision>
   <Deciso>
     <Proxy>
