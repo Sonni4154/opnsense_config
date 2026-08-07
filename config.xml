@@ -377,6 +377,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <type>group</type>
       <networks/>
     </wireguard>
+    <opt10>
+      <descr>protonvpn</descr>
+      <if>wg0</if>
+    </opt10>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3228,8 +3232,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1786084627.12</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1786084667.89</time>
   </revision>
   <Deciso>
     <Proxy>
