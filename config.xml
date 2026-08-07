@@ -379,6 +379,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
     </opt9>
+    <opt10>
+      <descr>TailscaleVPN</descr>
+      <if>vlan080</if>
+    </opt10>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3192,8 +3196,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/api/interfaces/vlan_settings/set_item/b11cf6cc-a527-46d2-b109-15bd2c75ba4b made changes</description>
-    <time>1786080957.26</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1786080980.62</time>
   </revision>
   <Deciso>
     <Proxy>
