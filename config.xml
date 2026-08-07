@@ -3204,8 +3204,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/api/tailscale/settings/set made changes</description>
-    <time>1786082259.82</time>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1786082324.06</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4512,8 +4512,8 @@ hub-data.crowdsec.net</content>
       </error_pages>
     </proxy>
     <wireguard>
-      <general version="0.0.1">
-        <enabled>0</enabled>
+      <general version="0.0.1" persisted_at="1786082324.06" description="WireGuard configuration">
+        <enabled>1</enabled>
       </general>
       <server version="1.0.1" persisted_at="1770549007.57" description="WireGuard instance configuration">
         <servers/>
