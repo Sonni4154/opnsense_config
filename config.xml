@@ -3226,7 +3226,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.1</username>
     <description>/api/tailscale/settings/add_subnet/ made changes</description>
-    <time>1786081412.56</time>
+    <time>1786081424.26</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7107,7 +7107,7 @@ hub-data.crowdsec.net</content>
       </general>
     </Hostwatch>
     <tailscale>
-      <settings version="1.0.0" persisted_at="1786081412.56" description="Tailscale general settings">
+      <settings version="1.0.0" persisted_at="1786081424.26" description="Tailscale general settings">
         <enabled>0</enabled>
         <loginTimeout>10</loginTimeout>
         <listenPort>41641</listenPort>
@@ -7121,6 +7121,10 @@ hub-data.crowdsec.net</content>
           <subnet4 uuid="fb30e978-1cd0-42e7-a907-32dc4eff3042">
             <subnet>10.10.10.0/24</subnet>
             <description>LAN</description>
+          </subnet4>
+          <subnet4 uuid="009a53c7-46ac-40f5-af4e-d481a4e63f86">
+            <subnet>10.10.25.0/24</subnet>
+            <description>CONTAINERS</description>
           </subnet4>
         </subnets>
       </settings>
