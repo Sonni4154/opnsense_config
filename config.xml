@@ -3213,8 +3213,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1786084292.27</time>
+    <description>/api/wireguard/client/add_client/ made changes</description>
+    <time>1786084433.61</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4524,7 +4524,7 @@ hub-data.crowdsec.net</content>
       <general version="0.0.1" persisted_at="1786084292.27" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1786084290.00" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1786084433.59" description="WireGuard instance configuration">
         <servers>
           <server uuid="88127817-717a-4bc5-b795-aa26eaaeeaab">
             <enabled>1</enabled>
@@ -4539,15 +4539,26 @@ hub-data.crowdsec.net</content>
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers/>
+            <peers>61c87dbb-7991-4218-99db-31c6b54d5d69</peers>
             <debug>1</debug>
             <endpoint/>
             <peer_dns/>
           </server>
         </servers>
       </server>
-      <client version="1.0.0">
-        <clients/>
+      <client version="1.0.0" persisted_at="1786084433.61" description="WireGuard peer configuration">
+        <clients>
+          <client uuid="61c87dbb-7991-4218-99db-31c6b54d5d69">
+            <enabled>1</enabled>
+            <name>Proton_US_FREE_12</name>
+            <pubkey>1Fe25chEMe3i5ODyDeHhC94UY63O4vAyMw1KDgxcAk8=</pubkey>
+            <psk>ZF95QqOq5Jnup9SQkQ52gQ8jVxRUE/jXKJLDeaTsXtE=</psk>
+            <tunneladdress>0.0.0.0/0</tunneladdress>
+            <serveraddress>149.40.62.26</serveraddress>
+            <serverport>51820</serverport>
+            <keepalive>25</keepalive>
+          </client>
+        </clients>
       </client>
     </wireguard>
     <NodeExporter version="0.2.0" persisted_at="1770948771.55" description="node_exporter - Prometheus exporter for hardware and OS metrics.">
