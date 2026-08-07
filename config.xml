@@ -3192,8 +3192,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1786080937.31</time>
+    <description>/api/interfaces/vlan_settings/set_item/b11cf6cc-a527-46d2-b109-15bd2c75ba4b made changes</description>
+    <time>1786080957.26</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7089,7 +7089,7 @@ hub-data.crowdsec.net</content>
   <bridges version="1.0.0">
     <bridged/>
   </bridges>
-  <vlans version="1.0.0" persisted_at="1786080888.16" description="VLAN configuration">
+  <vlans version="1.0.0" persisted_at="1786080957.26" description="VLAN configuration">
     <vlan uuid="032f7af0-ff33-4568-a1f1-11ce1f556246">
       <if>igc1</if>
       <tag>20</tag>
@@ -7168,7 +7168,7 @@ hub-data.crowdsec.net</content>
       <pcp>0</pcp>
       <proto/>
       <descr>Proton VPN</descr>
-      <vlanif>vlan090</vlanif>
+      <vlanif>vlan095</vlanif>
     </vlan>
   </vlans>
   <ifgroups version="1.0.0"/>
