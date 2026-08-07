@@ -381,6 +381,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <descr>protonvpn</descr>
       <if>wg0</if>
     </opt10>
+    <opt12>
+      <descr>LANTAILS</descr>
+      <if>igc3</if>
+    </opt12>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3257,8 +3261,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1786084727.36</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1786084885.73</time>
   </revision>
   <Deciso>
     <Proxy>
