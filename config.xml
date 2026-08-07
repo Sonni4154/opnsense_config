@@ -379,6 +379,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
     </opt9>
+    <opt10>
+      <descr>ProtonVPN</descr>
+      <if>vlan090</if>
+    </opt10>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3192,8 +3196,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/interfaces.php made changes</description>
-    <time>1786080723.63</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1786080773.62</time>
   </revision>
   <Deciso>
     <Proxy>
