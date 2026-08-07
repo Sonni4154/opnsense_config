@@ -383,10 +383,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <descr>ProtonVPN</descr>
       <if>vlan090</if>
     </opt10>
-    <opt11>
-      <descr>TailscaleVPN</descr>
-      <if>vlan080</if>
-    </opt11>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3201,7 +3197,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.1</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1786080814.78</time>
+    <time>1786080823.32</time>
   </revision>
   <Deciso>
     <Proxy>
