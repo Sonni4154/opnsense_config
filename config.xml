@@ -3224,9 +3224,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1786081222.56</time>
+    <username>root@10.10.99.1</username>
+    <description>/api/tailscale/settings/add_subnet/ made changes</description>
+    <time>1786081412.56</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7107,7 +7107,7 @@ hub-data.crowdsec.net</content>
       </general>
     </Hostwatch>
     <tailscale>
-      <settings version="1.0.0" persisted_at="1786081221.44" description="Tailscale general settings">
+      <settings version="1.0.0" persisted_at="1786081412.56" description="Tailscale general settings">
         <enabled>0</enabled>
         <loginTimeout>10</loginTimeout>
         <listenPort>41641</listenPort>
@@ -7117,7 +7117,12 @@ hub-data.crowdsec.net</content>
         <acceptSubnetRoutes>0</acceptSubnetRoutes>
         <enableSSH>0</enableSSH>
         <disableSNAT>0</disableSNAT>
-        <subnets/>
+        <subnets>
+          <subnet4 uuid="fb30e978-1cd0-42e7-a907-32dc4eff3042">
+            <subnet>10.10.10.0/24</subnet>
+            <description>LAN</description>
+          </subnet4>
+        </subnets>
       </settings>
     </tailscale>
   </OPNsense>
