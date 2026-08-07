@@ -3212,9 +3212,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>Updated plugin interface configuration</description>
-    <time>1786082324.49</time>
+    <username>root@10.10.99.1</username>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1786082331.43</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4521,7 +4521,7 @@ hub-data.crowdsec.net</content>
       </error_pages>
     </proxy>
     <wireguard>
-      <general version="0.0.1" persisted_at="1786082324.06" description="WireGuard configuration">
+      <general version="0.0.1" persisted_at="1786082331.43" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
       <server version="1.0.1" persisted_at="1770549007.57" description="WireGuard instance configuration">
