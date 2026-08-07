@@ -366,6 +366,15 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <enable>1</enable>
       <spoofmac/>
     </opt11>
+    <wireguard>
+      <internal_dynamic>1</internal_dynamic>
+      <descr>WireGuard (Group)</descr>
+      <if>wireguard</if>
+      <virtual>1</virtual>
+      <enable>1</enable>
+      <type>group</type>
+      <networks/>
+    </wireguard>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3203,9 +3212,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.99.1</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1786082324.06</time>
+    <username>(root)</username>
+    <description>Updated plugin interface configuration</description>
+    <time>1786082324.49</time>
   </revision>
   <Deciso>
     <Proxy>
