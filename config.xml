@@ -382,7 +382,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <opt10>
       <if>vlan080</if>
       <descr>TailscaleVPN</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>10.10.80.1</ipaddr>
       <subnet>24</subnet>
@@ -3225,8 +3224,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/api/tailscale/settings/set made changes</description>
-    <time>1786081434.09</time>
+    <description>Interface TailscaleVPN(opt10) is now disabled.</description>
+    <time>1786081614.50</time>
   </revision>
   <Deciso>
     <Proxy>
