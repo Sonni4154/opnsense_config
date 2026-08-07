@@ -365,6 +365,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <descr>ProtonVPN</descr>
       <enable>1</enable>
       <spoofmac/>
+      <ipaddr>10.20.20.1</ipaddr>
+      <subnet>24</subnet>
     </opt11>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
@@ -3213,8 +3215,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/api/routing/settings/add_gateway/ made changes</description>
-    <time>1786084530.82</time>
+    <description>/interfaces.php made changes</description>
+    <time>1786084596.89</time>
   </revision>
   <Deciso>
     <Proxy>
