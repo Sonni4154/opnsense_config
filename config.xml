@@ -3168,7 +3168,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.1</username>
     <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
-    <time>1786080376.26</time>
+    <time>1786080492.61</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7064,7 +7064,7 @@ hub-data.crowdsec.net</content>
   <bridges version="1.0.0">
     <bridged/>
   </bridges>
-  <vlans version="1.0.0" persisted_at="1786080376.26" description="VLAN configuration">
+  <vlans version="1.0.0" persisted_at="1786080492.61" description="VLAN configuration">
     <vlan uuid="032f7af0-ff33-4568-a1f1-11ce1f556246">
       <if>igc1</if>
       <tag>20</tag>
@@ -7136,6 +7136,14 @@ hub-data.crowdsec.net</content>
       <proto/>
       <descr>Tailscale VPN</descr>
       <vlanif>vlan080</vlanif>
+    </vlan>
+    <vlan uuid="b11cf6cc-a527-46d2-b109-15bd2c75ba4b">
+      <if>igc2</if>
+      <tag>90</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>Proton VPN</descr>
+      <vlanif>vlan0090</vlanif>
     </vlan>
   </vlans>
   <ifgroups version="1.0.0"/>
