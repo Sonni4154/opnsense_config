@@ -378,13 +378,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
     </opt9>
-    <opt10>
-      <if>vlan080</if>
-      <descr>TailscaleVPN</descr>
-      <spoofmac/>
-      <ipaddr>10.10.80.1</ipaddr>
-      <subnet>24</subnet>
-    </opt10>
     <opt11>
       <if>vlan095</if>
       <descr>ProtonVPN</descr>
@@ -3223,8 +3216,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>Interface TAILSCALE(opt9) is now disabled.</description>
-    <time>1786081622.36</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1786081653.63</time>
   </revision>
   <Deciso>
     <Proxy>
