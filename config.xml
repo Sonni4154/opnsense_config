@@ -3221,6 +3221,31 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="9be949c6-dd0f-476f-b6f0-46ffce930deb">
+      <type>pass</type>
+      <interface>opt11</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <gateway>PROTONVPN_GW</gateway>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt11</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.10.99.1</username>
+        <time>1786084727.18</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.1</username>
+        <time>1786084727.18</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -3232,8 +3257,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1786084667.89</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1786084727.36</time>
   </revision>
   <Deciso>
     <Proxy>
