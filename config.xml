@@ -695,6 +695,19 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <dnsserver/>
       <ntpserver/>
     </opt11>
+    <opt12>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>100.30.30.100</from>
+        <to>100.30.30.200</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt12>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -3265,8 +3278,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/interfaces.php made changes</description>
-    <time>1786084973.16</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1786085009.87</time>
   </revision>
   <Deciso>
     <Proxy>
