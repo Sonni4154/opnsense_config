@@ -73,8 +73,6 @@
       <protocol>https</protocol>
       <ssl-certref>6954f391f0dcf</ssl-certref>
       <port>4443</port>
-      <ssl-ciphers/>
-      <interfaces>lan,opt1</interfaces>
       <compression/>
       <httpaccesslog>1</httpaccesslog>
     </webgui>
@@ -365,8 +363,12 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <descr>ProtonVPN</descr>
       <enable>1</enable>
       <spoofmac/>
-      <ipaddr>10.20.20.1</ipaddr>
-      <subnet>24</subnet>
+      <ipaddr>dhcp</ipaddr>
+      <subnet/>
+      <gateway/>
+      <ipaddrv6/>
+      <subnetv6/>
+      <gatewayv6/>
     </opt11>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
@@ -3277,9 +3279,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.99.1</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1786085009.87</time>
+    <username>(root)</username>
+    <description>opt11 configuration from console menu</description>
+    <time>1788143478.24</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7424,6 +7426,7 @@ hub-data.crowdsec.net</content>
       <log_quiet>0</log_quiet>
     </dhcp>
     <no_ident>1</no_ident>
+    <dhcp_ranges/>
   </dnsmasq>
   <staticroutes version="1.0.0">
     <route/>
