@@ -361,7 +361,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <opt11>
       <if>vlan095</if>
       <descr>ProtonVPN</descr>
-      <enable>1</enable>
       <spoofmac/>
       <ipaddr>dhcp</ipaddr>
       <subnet/>
@@ -3279,9 +3278,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>opt11 configuration from console menu</description>
-    <time>1788143478.24</time>
+    <username>root@10.10.10.151</username>
+    <description>Interface ProtonVPN(opt11) is now disabled.</description>
+    <time>1788144748.66</time>
   </revision>
   <Deciso>
     <Proxy>
