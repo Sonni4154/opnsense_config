@@ -422,7 +422,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
           <enable>1</enable>
         </puren>
         <ieee8021x/>
-        <standard>11b</standard>
+        <standard>11ng</standard>
         <protmode>off</protmode>
         <ssid>LordlySIM</ssid>
         <channel>0</channel>
@@ -3391,7 +3391,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces.php made changes</description>
-    <time>1788338846.87</time>
+    <time>1788338943.64</time>
   </revision>
   <Deciso>
     <Proxy>
