@@ -398,7 +398,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
           <macaddr_acl/>
           <auth_algs>1</auth_algs>
           <wpa_mode>2</wpa_mode>
-          <wpa_key_mgmt>WPA-PSK</wpa_key_mgmt>
+          <wpa_key_mgmt>WPA-PSK WPA-EAP</wpa_key_mgmt>
           <wpa_eap_method>PEAP</wpa_eap_method>
           <wpa_eap_p2_auth>MD5</wpa_eap_p2_auth>
           <wpa_eap_cacertref/>
@@ -463,35 +463,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <adv_dhcp_config_advanced/>
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
-      <ipaddrv6>dhcp6</ipaddrv6>
-      <dhcp6-ia-pd-len>0</dhcp6-ia-pd-len>
-      <adv_dhcp6_interface_statement_send_options/>
-      <adv_dhcp6_interface_statement_request_options/>
-      <adv_dhcp6_interface_statement_information_only_enable/>
-      <adv_dhcp6_interface_statement_script/>
-      <adv_dhcp6_id_assoc_statement_address_enable/>
-      <adv_dhcp6_id_assoc_statement_address/>
-      <adv_dhcp6_id_assoc_statement_address_id/>
-      <adv_dhcp6_id_assoc_statement_address_pltime/>
-      <adv_dhcp6_id_assoc_statement_address_vltime/>
-      <adv_dhcp6_id_assoc_statement_prefix_enable/>
-      <adv_dhcp6_id_assoc_statement_prefix/>
-      <adv_dhcp6_id_assoc_statement_prefix_id/>
-      <adv_dhcp6_id_assoc_statement_prefix_pltime/>
-      <adv_dhcp6_id_assoc_statement_prefix_vltime/>
-      <adv_dhcp6_prefix_interface_statement_sla_len/>
-      <adv_dhcp6_authentication_statement_authname/>
-      <adv_dhcp6_authentication_statement_protocol/>
-      <adv_dhcp6_authentication_statement_algorithm/>
-      <adv_dhcp6_authentication_statement_rdm/>
-      <adv_dhcp6_key_info_statement_keyname/>
-      <adv_dhcp6_key_info_statement_realm/>
-      <adv_dhcp6_key_info_statement_keyid/>
-      <adv_dhcp6_key_info_statement_secret/>
-      <adv_dhcp6_key_info_statement_expire/>
-      <adv_dhcp6_config_advanced/>
-      <adv_dhcp6_config_file_override/>
-      <adv_dhcp6_config_file_override_path/>
     </opt13>
     <opt14>
       <descr>Tailscale</descr>
@@ -3391,7 +3362,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces.php made changes</description>
-    <time>1788338943.64</time>
+    <time>1788339028.17</time>
   </revision>
   <Deciso>
     <Proxy>
