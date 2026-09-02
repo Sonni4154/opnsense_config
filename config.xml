@@ -3279,8 +3279,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/unbound/settings/set made changes</description>
-    <time>1788146105.20</time>
+    <description>/interfaces_wireless_edit.php made changes</description>
+    <time>1788338309.67</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7446,7 +7446,12 @@ hub-data.crowdsec.net</content>
     <ppp/>
   </ppps>
   <wireless>
-    <clone/>
+    <clone>
+      <if>run0</if>
+      <mode>bss</mode>
+      <descr>Wireless Interface</descr>
+      <cloneif>run0_wlan1</cloneif>
+    </clone>
   </wireless>
   <ca uuid="160dbd17-bb78-4a2a-86d9-ff8717d85c20">
     <refid>6954f2be7740e</refid>
