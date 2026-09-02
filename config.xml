@@ -401,6 +401,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <descr>Tailscale</descr>
       <if>tailscale0</if>
     </opt14>
+    <opt15>
+      <descr>igc2</descr>
+      <if>igc2</if>
+    </opt15>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3291,7 +3295,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1788338407.64</time>
+    <time>1788338411.14</time>
   </revision>
   <Deciso>
     <Proxy>
