@@ -397,6 +397,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <mode>bss</mode>
       </wireless>
     </opt13>
+    <opt14>
+      <descr>Tailscale</descr>
+      <if>tailscale0</if>
+    </opt14>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3287,7 +3291,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1788338392.31</time>
+    <time>1788338407.64</time>
   </revision>
   <Deciso>
     <Proxy>
