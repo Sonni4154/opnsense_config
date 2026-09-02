@@ -390,6 +390,13 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <ipaddr>100.30.30.1</ipaddr>
       <subnet>24</subnet>
     </opt12>
+    <opt13>
+      <descr>WirelessInterface</descr>
+      <if>run0_wlan1</if>
+      <wireless>
+        <mode>bss</mode>
+      </wireless>
+    </opt13>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3279,8 +3286,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces_wireless_edit.php made changes</description>
-    <time>1788338313.52</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1788338392.31</time>
   </revision>
   <Deciso>
     <Proxy>
