@@ -397,7 +397,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <wpa>
           <macaddr_acl/>
           <auth_algs>1</auth_algs>
-          <wpa_mode>1</wpa_mode>
+          <wpa_mode>2</wpa_mode>
           <wpa_key_mgmt>WPA-PSK</wpa_key_mgmt>
           <wpa_eap_method>PEAP</wpa_eap_method>
           <wpa_eap_p2_auth>MD5</wpa_eap_p2_auth>
@@ -407,9 +407,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
           <wpa_group_rekey>60</wpa_group_rekey>
           <wpa_gmk_rekey>3600</wpa_gmk_rekey>
           <identity/>
-          <passphrase/>
+          <passphrase>TTrustno2$$</passphrase>
           <ext_wpa_sw/>
           <ieee8021x/>
+          <enable>1</enable>
         </wpa>
         <wme/>
         <wep>
@@ -417,7 +418,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         </wep>
         <hidessid/>
         <pureg/>
-        <puren/>
+        <puren>
+          <enable>1</enable>
+        </puren>
         <ieee8021x/>
         <standard>11b</standard>
         <protmode>off</protmode>
@@ -3387,8 +3390,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/routing/settings/set_gateway/WIRELESSINTERFACE_DHCP6 made changes</description>
-    <time>1788338611.83</time>
+    <description>/interfaces.php made changes</description>
+    <time>1788338846.87</time>
   </revision>
   <Deciso>
     <Proxy>
