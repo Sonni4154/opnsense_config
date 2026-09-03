@@ -390,78 +390,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <ipaddr>100.30.30.1</ipaddr>
       <subnet>24</subnet>
     </opt12>
-    <opt13>
-      <if>run0_wlan1</if>
-      <wireless>
-        <mode>bss</mode>
-        <wpa>
-          <macaddr_acl/>
-          <auth_algs>1</auth_algs>
-          <wpa_mode>2</wpa_mode>
-          <wpa_key_mgmt>WPA-PSK WPA-EAP</wpa_key_mgmt>
-          <wpa_eap_method>PEAP</wpa_eap_method>
-          <wpa_eap_p2_auth>MD5</wpa_eap_p2_auth>
-          <wpa_eap_cacertref/>
-          <wpa_eap_cltcertref/>
-          <wpa_pairwise>CCMP TKIP</wpa_pairwise>
-          <wpa_group_rekey>60</wpa_group_rekey>
-          <wpa_gmk_rekey>3600</wpa_gmk_rekey>
-          <identity/>
-          <passphrase>TTrustno2$$</passphrase>
-          <ext_wpa_sw/>
-          <ieee8021x/>
-          <enable>1</enable>
-        </wpa>
-        <wme/>
-        <wep>
-          <key/>
-        </wep>
-        <hidessid/>
-        <pureg/>
-        <puren>
-          <enable>1</enable>
-        </puren>
-        <ieee8021x/>
-        <standard>11ng</standard>
-        <protmode>off</protmode>
-        <ssid>LordlySIM</ssid>
-        <channel>0</channel>
-        <authmode/>
-        <txpower/>
-        <regdomain/>
-        <regcountry/>
-        <reglocation/>
-        <auth_server_addr/>
-        <auth_server_port/>
-        <auth_server_shared_secret/>
-        <auth_server_addr2/>
-        <auth_server_port2/>
-        <auth_server_shared_secret2/>
-        <apbridge/>
-        <turbo/>
-      </wireless>
-      <descr>WirelessInterface</descr>
-      <spoofmac/>
-      <ipaddr>dhcp</ipaddr>
-      <dhcphostname/>
-      <alias-address/>
-      <alias-subnet>32</alias-subnet>
-      <dhcprejectfrom/>
-      <adv_dhcp_pt_timeout/>
-      <adv_dhcp_pt_retry/>
-      <adv_dhcp_pt_select_timeout/>
-      <adv_dhcp_pt_reboot/>
-      <adv_dhcp_pt_backoff_cutoff/>
-      <adv_dhcp_pt_initial_interval/>
-      <adv_dhcp_pt_values>SavedCfg</adv_dhcp_pt_values>
-      <adv_dhcp_send_options/>
-      <adv_dhcp_request_options/>
-      <adv_dhcp_required_options/>
-      <adv_dhcp_option_modifiers/>
-      <adv_dhcp_config_advanced/>
-      <adv_dhcp_config_file_override/>
-      <adv_dhcp_config_file_override_path/>
-    </opt13>
     <opt14>
       <descr>Tailscale</descr>
       <if>tailscale0</if>
@@ -3359,8 +3287,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>Interface WirelessInterface(opt13) is now disabled.</description>
-    <time>1788419172.24</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1788419196.14</time>
   </revision>
   <Deciso>
     <Proxy>
