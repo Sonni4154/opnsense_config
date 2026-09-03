@@ -3360,9 +3360,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.99.99</username>
-    <description>/interfaces.php made changes</description>
-    <time>1788339028.17</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
+    <time>1788419001.67</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -3665,7 +3665,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <p_ipstats>0</p_ipstats>
       </general>
     </collectd>
-    <AcmeClient version="4.3.0" persisted_at="1783234856.49" description="A secure ACME Client plugin">
+    <AcmeClient version="4.3.0" persisted_at="1788419001.67" description="A secure ACME Client plugin">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -3717,8 +3717,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
           <challengealias/>
           <certRefId>695b8fb1616b9</certRefId>
           <lastUpdate>1783234856</lastUpdate>
-          <statusCode>200</statusCode>
-          <statusLastUpdate>1783234856</statusLastUpdate>
+          <statusCode>400</statusCode>
+          <statusLastUpdate>1788419001</statusLastUpdate>
         </certificate>
       </certificates>
       <validations>
