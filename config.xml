@@ -215,8 +215,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
-      <mtu>1420</mtu>
-      <mss>1420</mss>
+      <mtu>1428</mtu>
+      <mss>1428</mss>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
       <alias-address/>
@@ -3288,7 +3288,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces.php made changes</description>
-    <time>1788420581.26</time>
+    <time>1788420886.40</time>
   </revision>
   <Deciso>
     <Proxy>
