@@ -723,7 +723,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </snmpd>
   <nat>
     <outbound>
-      <mode>advanced</mode>
+      <mode>automatic</mode>
       <rule>
         <source>
           <network>lan</network>
@@ -3285,8 +3285,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/routing/settings/set_gateway/684048b6-cc1d-4d0d-92f4-5f02b6af61a7 made changes</description>
-    <time>1788419947.32</time>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1788420126.80</time>
   </revision>
   <Deciso>
     <Proxy>
