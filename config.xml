@@ -441,7 +441,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <turbo/>
       </wireless>
       <descr>WirelessInterface</descr>
-      <lock>1</lock>
       <spoofmac/>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
@@ -3361,7 +3360,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>Interface WirelessInterface(opt13) is now disabled.</description>
-    <time>1788419169.54</time>
+    <time>1788419172.24</time>
   </revision>
   <Deciso>
     <Proxy>
