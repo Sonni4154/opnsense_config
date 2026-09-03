@@ -245,6 +245,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <spoofmac/>
       <ipaddr>10.10.10.1</ipaddr>
       <subnet>24</subnet>
+      <ipaddrv6>track6</ipaddrv6>
+      <track6-interface/>
+      <track6-prefix-id>0</track6-prefix-id>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -3259,7 +3262,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces.php made changes</description>
-    <time>1788421502.91</time>
+    <time>1788421547.90</time>
   </revision>
   <Deciso>
     <Proxy>
