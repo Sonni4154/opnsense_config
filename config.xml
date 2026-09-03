@@ -3287,8 +3287,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces.php made changes</description>
-    <time>1788420886.40</time>
+    <description>/api/wireguard/server/toggle_server/88127817-717a-4bc5-b795-aa26eaaeeaab made changes</description>
+    <time>1788421370.12</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4652,10 +4652,10 @@ hub-data.crowdsec.net</content>
       <general version="0.0.1" persisted_at="1786084292.27" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1786084433.59" description="WireGuard instance configuration">
+      <server version="1.0.1" persisted_at="1788421370.12" description="WireGuard instance configuration">
         <servers>
           <server uuid="88127817-717a-4bc5-b795-aa26eaaeeaab">
-            <enabled>1</enabled>
+            <enabled>0</enabled>
             <name>protonvpn</name>
             <instance>0</instance>
             <pubkey>1Fe25chEMe3i5ODyDeHhC94UY63O4vAyMw1KDgxcAk8=</pubkey>
