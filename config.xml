@@ -215,6 +215,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
+      <mtu>1420</mtu>
+      <mss>1420</mss>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
       <alias-address/>
@@ -3285,8 +3287,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1788420350.61</time>
+    <description>/interfaces.php made changes</description>
+    <time>1788420581.26</time>
   </revision>
   <Deciso>
     <Proxy>
