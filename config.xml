@@ -215,8 +215,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <enable>1</enable>
       <lock>1</lock>
       <spoofmac/>
-      <blockpriv>1</blockpriv>
-      <blockbogons>1</blockbogons>
       <ipaddr>dhcp</ipaddr>
       <dhcphostname/>
       <alias-address/>
@@ -3287,8 +3285,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/routing/settings/del_gateway/6872b7b3-f152-4c2d-9e4f-6a06c093427e made changes</description>
-    <time>1788419628.28</time>
+    <description>/interfaces.php made changes</description>
+    <time>1788419836.40</time>
   </revision>
   <Deciso>
     <Proxy>
