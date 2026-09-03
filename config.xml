@@ -3285,8 +3285,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_nat_out.php made changes</description>
-    <time>1788420128.23</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1788420346.85</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4275,7 +4275,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Alias version="1.0.1">
+      <Alias version="1.0.1" persisted_at="1788420346.85" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4293,6 +4293,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description>CrowdSec (IPv4)</description>
           </alias>
@@ -4309,6 +4310,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description>CrowdSec (IPv6)</description>
           </alias>
@@ -4327,6 +4329,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description>RFC1918</description>
           </alias>
@@ -4344,6 +4347,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description>frigate host</description>
           </alias>
@@ -4360,6 +4364,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description>Camera IP ranges (static)</description>
           </alias>
@@ -4376,6 +4381,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description/>
           </alias>
@@ -4392,6 +4398,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description>Storage Network</description>
           </alias>
@@ -4409,6 +4416,7 @@ hub-data.crowdsec.net</content>
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description/>
           </alias>
@@ -4428,6 +4436,7 @@ hub-data.crowdsec.net</content>
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description>Hosts for Network Infrastructure (MGMT)</description>
           </alias>
@@ -4465,6 +4474,7 @@ hub-data.crowdsec.net</content>
             <password/>
             <username/>
             <authtype/>
+            <expire/>
             <categories/>
             <description>Cloudflare IP ranges</description>
           </alias>
@@ -4481,6 +4491,24 @@ hub-data.crowdsec.net</content>
             <password/>
             <username/>
             <authtype/>
+            <expire/>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="fbd72254-873c-46d2-ad6d-a0142fa3cf45">
+            <enabled>1</enabled>
+            <name>VerizonIP</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>100.107.96.178</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
             <categories/>
             <description/>
           </alias>
