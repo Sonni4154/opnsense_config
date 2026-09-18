@@ -3284,8 +3284,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1789717131.31</time>
+    <description>/api/routing/settings/toggle_gateway/7e562d9e-86c9-43ae-a075-c8fcd73d3a91 made changes</description>
+    <time>1789717144.02</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4174,7 +4174,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </validations>
       <actions/>
     </AcmeClient>
-    <Gateways version="1.0.0" persisted_at="1788419947.32" description="Gateways configuration">
+    <Gateways version="1.0.0" persisted_at="1789717144.02" description="Gateways configuration">
       <gateway_item uuid="684048b6-cc1d-4d0d-92f4-5f02b6af61a7">
         <disabled>0</disabled>
         <name>WAN_GW</name>
@@ -4228,7 +4228,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <data_length/>
       </gateway_item>
       <gateway_item uuid="7e562d9e-86c9-43ae-a075-c8fcd73d3a91">
-        <disabled>0</disabled>
+        <disabled>1</disabled>
         <name>PROTONVPN_GW</name>
         <descr/>
         <interface>wan</interface>
