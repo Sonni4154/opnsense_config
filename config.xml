@@ -3284,8 +3284,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>Interface LANTAILS(opt12) is now disabled.</description>
-    <time>1789716456.99</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1789716547.35</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4274,7 +4274,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Alias version="1.0.1" persisted_at="1788420350.61" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1789716547.35" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4510,6 +4510,24 @@ hub-data.crowdsec.net</content>
             <expire/>
             <categories/>
             <description/>
+          </alias>
+          <alias uuid="c62b5c1b-b74c-435f-a650-e5956c6fec61">
+            <enabled>1</enabled>
+            <name>blackknight</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>10.10.10.98
+10.10.99.98</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>2080ti i9</description>
           </alias>
         </aliases>
       </Alias>
