@@ -3284,8 +3284,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1789716713.70</time>
+    <description>/api/wireguard/server/del_server/88127817-717a-4bc5-b795-aa26eaaeeaab made changes</description>
+    <time>1789717129.85</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4685,27 +4685,8 @@ hub-data.crowdsec.net</content>
       <general version="0.0.1" persisted_at="1788421384.77" description="WireGuard configuration">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.1" persisted_at="1788421370.12" description="WireGuard instance configuration">
-        <servers>
-          <server uuid="88127817-717a-4bc5-b795-aa26eaaeeaab">
-            <enabled>0</enabled>
-            <name>protonvpn</name>
-            <instance>0</instance>
-            <pubkey>1Fe25chEMe3i5ODyDeHhC94UY63O4vAyMw1KDgxcAk8=</pubkey>
-            <privkey>QMEBj1eiDE4vv7xl+jL5jZeHMeJcYrQZsoFiBQCyZns=</privkey>
-            <port>51820</port>
-            <mtu/>
-            <dns/>
-            <tunneladdress>10.2.0.2/32</tunneladdress>
-            <disableroutes>0</disableroutes>
-            <gateway/>
-            <carp_depend_on/>
-            <peers>61c87dbb-7991-4218-99db-31c6b54d5d69</peers>
-            <debug>1</debug>
-            <endpoint/>
-            <peer_dns/>
-          </server>
-        </servers>
+      <server version="1.0.1" persisted_at="1789717129.84" description="WireGuard instance configuration">
+        <servers/>
       </server>
       <client version="1.0.0" persisted_at="1786084433.61" description="WireGuard peer configuration">
         <clients>
