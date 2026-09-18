@@ -3286,7 +3286,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/api/tailscale/authentication/set made changes</description>
-    <time>1789717756.30</time>
+    <time>1789717778.62</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7293,7 +7293,7 @@ hub-data.crowdsec.net</content>
           </subnet4>
         </subnets>
       </settings>
-      <authentication version="0.0.0" persisted_at="1789717756.30" description="Tailscale authentication settings">
+      <authentication version="0.0.0" persisted_at="1789717778.62" description="Tailscale authentication settings">
         <loginServer>https://controlplane.tailscale.com</loginServer>
         <preAuthKey>tskey-auth-k8SiSkHsRy11CNTRL-iDmDfMm4DphEgi55WCxNphD1kfYFMR8j</preAuthKey>
       </authentication>
