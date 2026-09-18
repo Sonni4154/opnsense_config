@@ -236,6 +236,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <adv_dhcp_config_advanced/>
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
+      <ipaddrv6>linklocal</ipaddrv6>
     </wan>
     <lan>
       <if>igc1</if>
@@ -3284,8 +3285,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/routing/settings/toggle_gateway/7e562d9e-86c9-43ae-a075-c8fcd73d3a91 made changes</description>
-    <time>1789717144.02</time>
+    <description>/interfaces.php made changes</description>
+    <time>1789717241.38</time>
   </revision>
   <Deciso>
     <Proxy>
