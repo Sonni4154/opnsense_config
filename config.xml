@@ -1818,7 +1818,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
-        <address>10.10.10.40/32</address>
+        <address>10.10.10.40</address>
       </source>
       <destination>
         <address>10.10.40.0/24</address>
@@ -1826,7 +1826,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </destination>
       <updated>
         <username>root@10.10.99.99</username>
-        <time>1767584822.9854</time>
+        <time>1791503053.87</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -3260,7 +3260,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1791502945.95</time>
+    <time>1791503054.05</time>
   </revision>
   <Deciso>
     <Proxy>
