@@ -2776,7 +2776,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <address>FRIGATE_HOST</address>
       </source>
       <destination>
-        <address>Cameras</address>
+        <address>CAMERAS_STATIC</address>
         <port>554</port>
       </destination>
       <updated>
@@ -2803,7 +2803,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <network>lan</network>
       </source>
       <destination>
-        <address>Cameras</address>
+        <address>CAMERAS_STATIC</address>
         <port>80</port>
       </destination>
       <updated>
@@ -2830,7 +2830,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <network>lan</network>
       </source>
       <destination>
-        <address>Cameras</address>
+        <address>CAMERAS_STATIC</address>
         <port>443</port>
       </destination>
       <updated>
@@ -2854,7 +2854,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <quick>1</quick>
       <protocol>tcp/udp</protocol>
       <source>
-        <address>Cameras</address>
+        <address>CAMERAS_STATIC</address>
       </source>
       <destination>
         <network>(self)</network>
@@ -2881,7 +2881,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <quick>1</quick>
       <protocol>udp</protocol>
       <source>
-        <address>Cameras</address>
+        <address>CAMERAS_STATIC</address>
       </source>
       <destination>
         <network>(self)</network>
@@ -3260,7 +3260,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/api/firewall/alias/set_item/b217a080-256b-490b-847c-faeee62c381a made changes</description>
-    <time>1791503172.80</time>
+    <time>1791503190.60</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4249,7 +4249,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Alias version="1.0.1" persisted_at="1791503172.80" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1791503190.60" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4326,7 +4326,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
           </alias>
           <alias uuid="b217a080-256b-490b-847c-faeee62c381a">
             <enabled>1</enabled>
-            <name>Cameras</name>
+            <name>CAMERAS_STATIC</name>
             <type>host</type>
             <path_expression/>
             <proto/>
