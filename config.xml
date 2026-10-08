@@ -1611,16 +1611,15 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <descr>LAN to campus iii</descr>
       <direction>in</direction>
       <quick>1</quick>
-      <protocol>tcp</protocol>
       <source>
         <any>1</any>
       </source>
       <destination>
-        <address>10.10.10.40</address>
+        <address>10.10.10.40/32</address>
       </destination>
       <updated>
-        <username>root@10.10.10.140</username>
-        <time>1771086252.00</time>
+        <username>root@10.10.99.99</username>
+        <time>1791503668.52</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -3259,8 +3258,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1791503218.81</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1791503668.71</time>
   </revision>
   <Deciso>
     <Proxy>
