@@ -3148,7 +3148,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/api/tailscale/settings/set made changes</description>
-    <time>1791521550.83</time>
+    <time>1791521556.78</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7103,8 +7103,8 @@ hub-data.crowdsec.net</content>
       </general>
     </Hostwatch>
     <tailscale>
-      <settings version="1.0.0" persisted_at="1791521550.83" description="Tailscale general settings">
-        <enabled>0</enabled>
+      <settings version="1.0.0" persisted_at="1791521556.78" description="Tailscale general settings">
+        <enabled>1</enabled>
         <loginTimeout>10</loginTimeout>
         <listenPort>41641</listenPort>
         <acceptDNS>1</acceptDNS>
