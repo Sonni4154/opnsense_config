@@ -333,17 +333,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <enable>1</enable>
       <spoofmac/>
     </opt9>
-    <opt11>
-      <if>vlan095</if>
-      <descr>ProtonVPN</descr>
-      <spoofmac/>
-      <ipaddr>dhcp</ipaddr>
-      <subnet/>
-      <gateway/>
-      <ipaddrv6/>
-      <subnetv6/>
-      <gatewayv6/>
-    </opt11>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
       <descr>WireGuard (Group)</descr>
@@ -658,19 +647,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <dnsserver>10.10.30.1</dnsserver>
       <ntpserver/>
     </opt3>
-    <opt11>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>10.20.20.100</from>
-        <to>10.20.20.200</to>
-      </range>
-      <winsserver/>
-      <dnsserver/>
-      <ntpserver/>
-    </opt11>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -3202,31 +3178,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="9be949c6-dd0f-476f-b6f0-46ffce930deb">
-      <type>pass</type>
-      <interface>opt11</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <gateway>PROTONVPN_GW</gateway>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt11</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@10.10.99.1</username>
-        <time>1786084727.18</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.1</username>
-        <time>1786084727.18</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -3239,7 +3190,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1791504023.27</time>
+    <time>1791504028.85</time>
   </revision>
   <Deciso>
     <Proxy>
