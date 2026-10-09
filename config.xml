@@ -3145,8 +3145,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces.php made changes</description>
-    <time>1791523924.34</time>
+    <description>/api/routing/settings/toggle_gateway/c2c23a42-e147-40bc-af06-22543844499a made changes</description>
+    <time>1791524489.98</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4035,7 +4035,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </validations>
       <actions/>
     </AcmeClient>
-    <Gateways version="1.0.0" persisted_at="1791521387.75" description="Gateways configuration">
+    <Gateways version="1.0.0" persisted_at="1791524489.98" description="Gateways configuration">
       <gateway_item uuid="684048b6-cc1d-4d0d-92f4-5f02b6af61a7">
         <disabled>0</disabled>
         <name>WAN_GW</name>
@@ -4063,7 +4063,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <data_length/>
       </gateway_item>
       <gateway_item uuid="c2c23a42-e147-40bc-af06-22543844499a">
-        <disabled>1</disabled>
+        <disabled>0</disabled>
         <name>WAN_DHCP6</name>
         <descr>Interface WAN_DHCP6 Gateway</descr>
         <interface>wan</interface>
