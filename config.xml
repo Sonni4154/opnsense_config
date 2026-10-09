@@ -342,10 +342,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <type>group</type>
       <networks/>
     </wireguard>
-    <opt15>
-      <descr>igc2</descr>
-      <if>igc2</if>
-    </opt15>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3182,7 +3178,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1791504045.15</time>
+    <time>1791504139.10</time>
   </revision>
   <Deciso>
     <Proxy>
