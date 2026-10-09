@@ -357,13 +357,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <descr>protonvpn</descr>
       <if>wg0</if>
     </opt10>
-    <opt12>
-      <if>igc3</if>
-      <descr>LANTAILS</descr>
-      <spoofmac/>
-      <ipaddr>100.30.30.1</ipaddr>
-      <subnet>24</subnet>
-    </opt12>
     <opt14>
       <descr>Tailscale</descr>
       <if>tailscale0</if>
@@ -678,19 +671,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <dnsserver/>
       <ntpserver/>
     </opt11>
-    <opt12>
-      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <numberoptions>
-        <item/>
-      </numberoptions>
-      <range>
-        <from>100.30.30.100</from>
-        <to>100.30.30.200</to>
-      </range>
-      <winsserver/>
-      <dnsserver/>
-      <ntpserver/>
-    </opt12>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -3258,8 +3238,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1791503668.71</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1791504023.27</time>
   </revision>
   <Deciso>
     <Proxy>
