@@ -195,7 +195,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <primaryconsole>video</primaryconsole>
     <dhcp6_debug>2</dhcp6_debug>
     <disablebeep>1</disablebeep>
-    <ipv6allow>1</ipv6allow>
     <sudo_allow_wheel>1</sudo_allow_wheel>
     <remotebackup>
       <GDriveEnabled>on</GDriveEnabled>
@@ -3146,8 +3145,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces.php made changes</description>
-    <time>1791522577.80</time>
+    <description>/system_advanced_network.php made changes</description>
+    <time>1791522740.50</time>
   </revision>
   <Deciso>
     <Proxy>
