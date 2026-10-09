@@ -327,12 +327,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <ipaddr>10.10.70.1</ipaddr>
       <subnet>24</subnet>
     </opt8>
-    <opt9>
-      <if>vlan080</if>
-      <descr>TAILSCALE</descr>
-      <enable>1</enable>
-      <spoofmac/>
-    </opt9>
     <wireguard>
       <internal_dynamic>1</internal_dynamic>
       <descr>WireGuard (Group)</descr>
@@ -3141,31 +3135,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="008d9d0a-a480-405f-b580-adc3524faa1a">
-      <type>pass</type>
-      <interface>opt9</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Tailscale Out</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt9</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@10.10.99.1</username>
-        <time>1786082232.77</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.1</username>
-        <time>1786082232.77</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -3178,7 +3147,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1791504139.10</time>
+    <time>1791504146.86</time>
   </revision>
   <Deciso>
     <Proxy>
