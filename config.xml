@@ -213,7 +213,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <descr>WAN</descr>
       <enable>1</enable>
       <lock>1</lock>
-      <spoofmac>bc:f6:85:fe:4c:45</spoofmac>
+      <spoofmac/>
       <blockpriv>1</blockpriv>
       <blockbogons>1</blockbogons>
       <ipaddr>dhcp</ipaddr>
@@ -3146,7 +3146,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/interfaces.php made changes</description>
-    <time>1791523482.00</time>
+    <time>1791523924.34</time>
   </revision>
   <Deciso>
     <Proxy>
