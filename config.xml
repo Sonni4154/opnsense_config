@@ -236,7 +236,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <adv_dhcp_config_advanced/>
       <adv_dhcp_config_file_override/>
       <adv_dhcp_config_file_override_path/>
-      <ipaddrv6>linklocal</ipaddrv6>
+      <dhcphonourmtu>1</dhcphonourmtu>
+      <ipaddrv6>track6</ipaddrv6>
+      <track6-interface/>
+      <track6-prefix-id>0</track6-prefix-id>
     </wan>
     <lan>
       <if>igc1</if>
@@ -3146,8 +3149,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1791504146.86</time>
+    <description>/interfaces.php made changes</description>
+    <time>1791521139.95</time>
   </revision>
   <Deciso>
     <Proxy>
