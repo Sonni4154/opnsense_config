@@ -2230,6 +2230,30 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule uuid="7d90a950-50fe-4bb2-ae66-e1d96f903943">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>whiteknight</address>
+      </source>
+      <destination>
+        <address>lan,opt4</address>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1791835644.89</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1791835644.89</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="a11e2e56-77e1-492e-8d11-5cecda8ac17f">
       <type>pass</type>
       <interface>opt2</interface>
@@ -3145,8 +3169,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1791835483.37</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1791835645.06</time>
   </revision>
   <Deciso>
     <Proxy>
