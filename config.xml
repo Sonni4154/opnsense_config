@@ -2254,6 +2254,30 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </created>
       <disabled>1</disabled>
     </rule>
+    <rule uuid="1b5e9af2-2b77-4aac-ba54-98e183327963">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>blackknight</address>
+      </source>
+      <destination>
+        <address>CAMERAS_STATIC,opt4,opt4ip</address>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1791836224.87</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1791836224.87</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="a11e2e56-77e1-492e-8d11-5cecda8ac17f">
       <type>pass</type>
       <interface>opt2</interface>
@@ -3170,7 +3194,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1791835668.72</time>
+    <time>1791836225.04</time>
   </revision>
   <Deciso>
     <Proxy>
