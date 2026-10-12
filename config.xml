@@ -2155,6 +2155,31 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="0066bc58-d30e-45ff-bdc3-3f55fd61e047">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>MGMT full access</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt1</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.10.10.125</username>
+        <time>1767068848.6995</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.125</username>
+        <time>1767068848.6995</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="235f6bd5-ce30-411b-9d0a-2958915c7b9f">
       <type>block</type>
       <interface>opt1</interface>
@@ -2180,31 +2205,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
       <disabled>1</disabled>
-    </rule>
-    <rule uuid="0066bc58-d30e-45ff-bdc3-3f55fd61e047">
-      <type>pass</type>
-      <interface>opt1</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>MGMT full access</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt1</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@10.10.10.125</username>
-        <time>1767068848.6995</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.10.125</username>
-        <time>1767068848.6995</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
     </rule>
     <rule uuid="6c2b71da-8290-422c-81f3-1dae6bcce6c2">
       <type>pass</type>
@@ -3146,7 +3146,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/firewall_rules.php made changes</description>
-    <time>1791835470.53</time>
+    <time>1791835476.53</time>
   </revision>
   <Deciso>
     <Proxy>
