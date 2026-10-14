@@ -78,6 +78,7 @@
       <ssl-ciphers/>
       <interfaces/>
       <authmode>Local Database</authmode>
+      <althostnames>opnsense.home.arpa</althostnames>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
@@ -3196,8 +3197,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>The user "codex" was successfully removed.</description>
-    <time>1792006684.94</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1792006793.41</time>
   </revision>
   <Deciso>
     <Proxy>
