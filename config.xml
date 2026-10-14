@@ -67,6 +67,26 @@
       <descr>Spencer Reiser</descr>
       <dashboard/>
     </user>
+    <user uuid="9920e3cb-70e5-43ed-97c6-80a17e31d687">
+      <uid>2001</uid>
+      <name>1password</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$aQCH0uN42EnlsVEcTt3lKOPGKbicyoSNhJteaA6fquxcC9XnsEsTe</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys>RG24KH/pkXSbVd9XOMrCpMAWrfjs0UfCo0Wcq9HoxdgBA3bC/XV9NcWXpvK9I7+WonVee6KlDwAKZz18|$6$$9sOdhW2x877B74LRRkM8Gf7MGGCO8qmGk86fZYACo5Nkopiyz5eRWKiNq6Si3B1bHbWZqvbbSlWuLeAuwIlfP/</apikeys>
+      <priv/>
+      <language/>
+      <descr/>
+      <dashboard/>
+    </user>
     <timezone>America/Los_Angeles</timezone>
     <timeservers>time.cloudflare.com time.google.com 0.pool.ntp.org 1.pool.ntp.org 1.opnsense.pool.ntp.org</timeservers>
     <webgui>
@@ -75,6 +95,9 @@
       <port>4443</port>
       <compression/>
       <httpaccesslog>1</httpaccesslog>
+      <ssl-ciphers/>
+      <interfaces/>
+      <authmode>Local Database</authmode>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
@@ -206,26 +229,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
     <backupcount>50</backupcount>
-    <user uuid="9920e3cb-70e5-43ed-97c6-80a17e31d687">
-      <uid>2001</uid>
-      <name>1password</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell/>
-      <password>$2y$11$aQCH0uN42EnlsVEcTt3lKOPGKbicyoSNhJteaA6fquxcC9XnsEsTe</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment/>
-      <email/>
-      <apikeys>RG24KH/pkXSbVd9XOMrCpMAWrfjs0UfCo0Wcq9HoxdgBA3bC/XV9NcWXpvK9I7+WonVee6KlDwAKZz18|$6$$9sOdhW2x877B74LRRkM8Gf7MGGCO8qmGk86fZYACo5Nkopiyz5eRWKiNq6Si3B1bHbWZqvbbSlWuLeAuwIlfP/</apikeys>
-      <priv/>
-      <language/>
-      <descr/>
-      <dashboard/>
-    </user>
   </system>
   <interfaces>
     <wan>
@@ -3213,8 +3216,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>user "1password" changed</description>
-    <time>1792006226.59</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1792006658.69</time>
   </revision>
   <Deciso>
     <Proxy>
