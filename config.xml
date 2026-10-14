@@ -47,26 +47,6 @@
       <descr>System Administrator</descr>
       <dashboard/>
     </user>
-    <user uuid="bb2c6a07-25ff-4822-bfa0-e63ae2b8e7be">
-      <uid>2000</uid>
-      <name>codex</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell/>
-      <password>$2y$11$4orzlBqHui5PaElkxgS6SOrlrCEXeN50ChT1Hp6d0bU7DlRe3Oqqq</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment>Codex CLI</comment>
-      <email>spencermreiser@gmail.com</email>
-      <apikeys>4UsNRsAV6OurZlAXyx2W0czj9QywAcTvni3ekV2Vwty21UpxrcO1Y81VQnMf9Y3nI2KB3t0rmSL05iNP|$6$$1FKTMTED5dfIFZTqevEgBz9taWurjCzAfm7exzW9YxmQMbLw0UofWTcP0r.Hy95UE5qqaeWcG6mKaSaTnReCM0</apikeys>
-      <priv/>
-      <language/>
-      <descr>Spencer Reiser</descr>
-      <dashboard/>
-    </user>
     <user uuid="9920e3cb-70e5-43ed-97c6-80a17e31d687">
       <uid>2001</uid>
       <name>1password</name>
@@ -3216,8 +3196,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1792006658.69</time>
+    <description>The user "codex" was successfully removed.</description>
+    <time>1792006684.94</time>
   </revision>
   <Deciso>
     <Proxy>
