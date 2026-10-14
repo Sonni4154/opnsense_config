@@ -206,6 +206,26 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
     <backupcount>50</backupcount>
+    <user uuid="9920e3cb-70e5-43ed-97c6-80a17e31d687">
+      <uid>2001</uid>
+      <name>1password</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$yxCl.Ww54UUs4FZi8uosZOScxRgQI0pkMtr32jeJ.cR4y9GvjzxOK</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys/>
+      <priv/>
+      <language/>
+      <descr/>
+      <dashboard/>
+    </user>
   </system>
   <interfaces>
     <wan>
@@ -3193,8 +3213,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1791836277.40</time>
+    <description>user "1password" created</description>
+    <time>1792006104.21</time>
   </revision>
   <Deciso>
     <Proxy>
