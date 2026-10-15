@@ -379,6 +379,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <mac>00:e0:4c:30:5e:03</mac>
         <cid>truenas</cid>
         <ipaddr>10.10.10.55</ipaddr>
+        <hostname>zimablade</hostname>
         <descr>Zimablade NAS 7700 </descr>
         <arp_table_static_entry>1</arp_table_static_entry>
         <winsserver/>
@@ -3197,7 +3198,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/services_dhcp_edit.php made changes</description>
-    <time>1792038481.17</time>
+    <time>1792038496.63</time>
   </revision>
   <Deciso>
     <Proxy>
