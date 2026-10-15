@@ -362,7 +362,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </range>
       <winsserver/>
       <dnsserver>10.10.10.1</dnsserver>
-      <dnsserver>1.1.1.1</dnsserver>
       <ntpserver/>
       <staticmap>
         <mac>7c:83:34:bb:be:3c</mac>
@@ -3196,8 +3195,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/system_advanced_admin.php made changes</description>
-    <time>1792006838.56</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1792038082.01</time>
   </revision>
   <Deciso>
     <Proxy>
