@@ -407,7 +407,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <staticmap>
         <mac>04:d4:c4:b1:95:ea</mac>
         <ipaddr>10.10.10.98</ipaddr>
-        <hostname>SONNYTOWER</hostname>
+        <hostname>blackknight</hostname>
         <descr>Black Knight 2080Ti</descr>
         <arp_table_static_entry>1</arp_table_static_entry>
         <gateway>10.10.10.1</gateway>
@@ -3195,8 +3195,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1792038082.01</time>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1792038457.10</time>
   </revision>
   <Deciso>
     <Proxy>
