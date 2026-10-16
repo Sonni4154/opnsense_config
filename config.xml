@@ -428,6 +428,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </staticmap>
     </lan>
     <opt1>
+      <enable>1</enable>
       <staticarp>1</staticarp>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <numberoptions>
@@ -3195,8 +3196,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces.php made changes</description>
-    <time>1792124708.58</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1792124767.31</time>
   </revision>
   <Deciso>
     <Proxy>
