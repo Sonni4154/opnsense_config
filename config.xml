@@ -248,9 +248,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <spoofmac/>
       <ipaddr>10.10.10.1</ipaddr>
       <subnet>24</subnet>
-      <ipaddrv6>track6</ipaddrv6>
-      <track6-interface/>
-      <track6-prefix-id>0</track6-prefix-id>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -3198,8 +3195,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1792038562.88</time>
+    <description>/interfaces.php made changes</description>
+    <time>1792124708.58</time>
   </revision>
   <Deciso>
     <Proxy>
