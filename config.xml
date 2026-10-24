@@ -3210,6 +3210,30 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="1aed840c-d2ea-4431-822c-9b8bbf04c59e">
+      <type>pass</type>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1792857584.30</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1792857584.30</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -3221,8 +3245,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1792857516.70</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1792857584.47</time>
   </revision>
   <Deciso>
     <Proxy>
