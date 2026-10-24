@@ -335,6 +335,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <type>group</type>
       <networks/>
     </wireguard>
+    <opt9>
+      <descr>TPLink</descr>
+      <if>igc2</if>
+    </opt9>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3196,8 +3200,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1792124767.31</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1792857325.59</time>
   </revision>
   <Deciso>
     <Proxy>
