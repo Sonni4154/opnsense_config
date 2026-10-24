@@ -640,6 +640,22 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <dnsserver>10.10.30.1</dnsserver>
       <ntpserver/>
     </opt3>
+    <opt9>
+      <enable>1</enable>
+      <staticarp>1</staticarp>
+      <gateway>10.10.15.1</gateway>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>10.10.15.100</from>
+        <to>10.10.15.175</to>
+      </range>
+      <winsserver/>
+      <dnsserver>10.10.15.1</dnsserver>
+      <ntpserver/>
+    </opt9>
   </dhcpd>
   <snmpd>
     <syslocation/>
@@ -3205,8 +3221,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces.php made changes</description>
-    <time>1792857423.68</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1792857516.70</time>
   </revision>
   <Deciso>
     <Proxy>
