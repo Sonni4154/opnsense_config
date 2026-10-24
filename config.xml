@@ -3232,11 +3232,11 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <network>opt9</network>
       </source>
       <destination>
-        <address>RFC1918,FRIGATE_HOST,CAMERAS_STATIC,STORAGE_NET,lan,opt1,opt4,opt5,opt6,opt8,opt10</address>
+        <address>RFC1918,FRIGATE_HOST,CAMERAS_STATIC,STORAGE_NET,lan,lanip,opt1,opt1ip,opt4,opt4ip,opt5,opt5ip,opt6,opt6ip,opt7,opt7ip,opt8,opt8ip,wireguard,opt10,opt10ip</address>
       </destination>
       <updated>
         <username>root@10.10.15.101</username>
-        <time>1792860033.42</time>
+        <time>1792860114.44</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -3334,8 +3334,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.15.101</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1792860065.43</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1792860114.62</time>
   </revision>
   <Deciso>
     <Proxy>
