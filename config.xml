@@ -3333,9 +3333,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.15.101</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1792860144.56</time>
+    <username>root@10.10.99.99</username>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1792860617.93</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4298,7 +4298,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Alias version="1.0.1" persisted_at="1791503218.81" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1792860617.92" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4569,6 +4569,26 @@ hub-data.crowdsec.net</content>
             <expire/>
             <categories/>
             <description>i7 14k</description>
+          </alias>
+          <alias uuid="f26d8435-4ff9-431c-8215-3c97c9d29632">
+            <enabled>1</enabled>
+            <name>PRIVATE_NETS</name>
+            <type>network</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>10.0.0.0/8
+192.168.0.0/16
+100.64.0.0/10
+172.16.0.0/12</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>VLANS</description>
           </alias>
         </aliases>
       </Alias>
