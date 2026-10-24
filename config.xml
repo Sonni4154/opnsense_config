@@ -345,8 +345,11 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <subnet>24</subnet>
     </opt9>
     <opt10>
-      <descr>Tailscale</descr>
       <if>tailscale0</if>
+      <descr>Tailscale</descr>
+      <enable>1</enable>
+      <lock>1</lock>
+      <spoofmac/>
     </opt10>
   </interfaces>
   <dhcpd>
@@ -3248,8 +3251,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1792858767.94</time>
+    <description>/interfaces.php made changes</description>
+    <time>1792858828.17</time>
   </revision>
   <Deciso>
     <Proxy>
