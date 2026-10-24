@@ -336,8 +336,13 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <networks/>
     </wireguard>
     <opt9>
-      <descr>TPLink</descr>
       <if>igc2</if>
+      <descr>TPLink</descr>
+      <enable>1</enable>
+      <lock>1</lock>
+      <spoofmac/>
+      <ipaddr>10.10.15.1</ipaddr>
+      <subnet>24</subnet>
     </opt9>
   </interfaces>
   <dhcpd>
@@ -3200,8 +3205,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1792857325.59</time>
+    <description>/interfaces.php made changes</description>
+    <time>1792857391.17</time>
   </revision>
   <Deciso>
     <Proxy>
