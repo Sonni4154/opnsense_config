@@ -344,6 +344,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <ipaddr>10.10.15.1</ipaddr>
       <subnet>24</subnet>
     </opt9>
+    <opt10>
+      <descr>Tailscale</descr>
+      <if>tailscale0</if>
+    </opt10>
   </interfaces>
   <dhcpd>
     <lan>
@@ -3244,8 +3248,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1792858406.64</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1792858767.94</time>
   </revision>
   <Deciso>
     <Proxy>
