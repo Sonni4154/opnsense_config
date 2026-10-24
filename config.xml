@@ -3240,6 +3240,33 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="419b9985-02c6-44a5-a280-a3cd9cc69461">
+      <type>pass</type>
+      <interface>opt10</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>100.64.0.0/10</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>opt10,opt10ip</address>
+      </source>
+      <destination>
+        <network>(self)</network>
+        <port>22</port>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1792858920.72</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1792858920.72</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -3251,8 +3278,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/interfaces.php made changes</description>
-    <time>1792858828.17</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1792858920.92</time>
   </revision>
   <Deciso>
     <Proxy>
