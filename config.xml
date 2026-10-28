@@ -3378,7 +3378,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/api/tftp/general/set made changes</description>
-    <time>1793213573.85</time>
+    <time>1793213624.51</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4660,8 +4660,8 @@ hub-data.crowdsec.net</content>
       </Filter>
     </Firewall>
     <tftp>
-      <general version="0.0.1" persisted_at="1793213573.85" description="TFTP configuration">
-        <enabled>0</enabled>
+      <general version="0.0.1" persisted_at="1793213624.51" description="TFTP configuration">
+        <enabled>1</enabled>
         <listen>127.0.0.1</listen>
       </general>
     </tftp>
