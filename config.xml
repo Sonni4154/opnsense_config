@@ -3377,8 +3377,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1793213332.40</time>
+    <description>/api/tftp/general/set made changes</description>
+    <time>1793213573.85</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4660,8 +4660,8 @@ hub-data.crowdsec.net</content>
       </Filter>
     </Firewall>
     <tftp>
-      <general version="0.0.1" persisted_at="1793193715.36" description="TFTP configuration">
-        <enabled>1</enabled>
+      <general version="0.0.1" persisted_at="1793213573.85" description="TFTP configuration">
+        <enabled>0</enabled>
         <listen>127.0.0.1</listen>
       </general>
     </tftp>
