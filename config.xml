@@ -357,16 +357,13 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <enable>1</enable>
       <staticarp>1</staticarp>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
-      <tftp>10.10.25.15</tftp>
-      <bootfilename>pxelinux.0</bootfilename>
+      <tftp>10.10.10.98</tftp>
       <netboot>1</netboot>
-      <nextserver>10.10.99.99</nextserver>
-      <filename>iventoy_client</filename>
-      <filename32>iventoy_client</filename32>
-      <filename64>iventoy_client</filename64>
-      <filename32arm>iventoy_client</filename32arm>
-      <filename64arm>iventoy_client</filename64arm>
-      <filenameipxe>iventoy_client</filenameipxe>
+      <nextserver>10.10.10.98</nextserver>
+      <filename>netboot.xyz.kpxe</filename>
+      <filename64>netboot.xyz.efi</filename64>
+      <filename64arm>netboot.xyz-arm64.efi</filename64arm>
+      <filenameipxe>http://boot.netboot.xyz/menu.ipxe </filenameipxe>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -3349,8 +3346,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.15.104</username>
-    <description>/api/tftp/general/set made changes</description>
-    <time>1793193715.36</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1793206908.47</time>
   </revision>
   <Deciso>
     <Proxy>
