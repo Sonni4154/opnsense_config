@@ -3377,8 +3377,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1793213241.41</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1793213316.21</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4341,7 +4341,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Alias version="1.0.1" persisted_at="1792860621.08" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1793213316.21" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4632,6 +4632,23 @@ hub-data.crowdsec.net</content>
             <expire/>
             <categories/>
             <description>VLANS</description>
+          </alias>
+          <alias uuid="d706b7f4-2741-4edd-9c36-08ee02953961">
+            <enabled>1</enabled>
+            <name>pve</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>10.10.99.10</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>proxmox</description>
           </alias>
         </aliases>
       </Alias>
