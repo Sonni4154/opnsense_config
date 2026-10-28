@@ -33,7 +33,7 @@
       <disabled>0</disabled>
       <scope>system</scope>
       <expires/>
-      <authorizedkeys/>
+      <authorizedkeys>c3NoLXJzYSBBQUFBQjNOemFDMXljMkVBQUFBREFRQUJBQUFDQVFDdnpBOFlDRjlxcThtYXpYL1o1QXBCUkt5bHhCNnJpN1lMb25VYThUNE83akdxMzhleldLYjlRTUdYOWh3NkE3SzFBelEwUTZ0WDA5MFJpQlZDMU9xZGJ6STBFVXZ5aWlBVW5GeGdtL1hNZTJPUEtNRnpRY29mbzhTWFQ4SUtyWG5ZT2VEMHBxUkdnL1hhTkM2ZldER2pIQ0VVNFgrdGVSS2d0VnpTT2dJclBGTGZnVm1wcm5LWXYvRWU1cFVJc0t4Q0tVSjBmVEx0OG9hN01lbEYrM0hMTXFpVFRPSUpsVFUwb3dPY2dEeUorUTlQaFNJRm5HWFo5VC9OaERXaUpGdmFkeVF1VzlBSS9RWjNlSHZITGp2SnF2MFppS012UzVEeTBlNmlUQWx2WTNpZXEySlJ1dFRnRkZtMmhvNWdGdDdIeGhyVVIyTlVaTjJ0ZWo2ZTRaQ2YvOURTR1ZqSGRtdU1iKzRWLzdHVnJCUVIrRk5rdVNnK1czM1UvV3F1ckFhOUtuMkdWQysza1FKN015eS9tUGYzb25oY0RsYXVoNzV0aFc5cmR6RDIrRHVwKzNBOENreDIySjZNa01aZEpoVGhHQjBGWHVZYVBTTXd1clA2Q0lUN05DWW0xT291RzlIUHliNHYybElITnowUlEreERNNEYzYURYaDhpMjdmTlFGeTZMZ08rb29DSnpINUxsVWFFM1U3NjZqUmZrUjd1bDExWEFWNGtibnFXLzV1aTk2QTM0c0ZNQmZOUitBUUU5aTU5SnlQUHZVbHhHQVBoR2RlcmN6UjdydVE3bklQMnRNaFAzMVpQcHA1cU82ZW1Hd3ZoRHNTOGpVbWRhbDVxbFpVSlJUK0tHSFpBbFRyT2hTZU1BaklTdmh4RGtqTE1rMEpZOEQ2Mm5KRnc9PSByb290QGJsYWNra25pZ2h0Cg==</authorizedkeys>
       <otp_seed/>
       <shell/>
       <password>$2y$11$vcen3oy58KbhjY6xaZrfluA7ZAHkde9mAAF1irHTE8cY89jE1As8a</password>
@@ -3221,54 +3221,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="74c680d0-630f-4d17-97e4-8c20f2881ecf">
-      <type>block</type>
-      <interface>opt9</interface>
-      <ipprotocol>inet46</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>out</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt9</network>
-      </source>
-      <destination>
-        <address>RFC1918,FRIGATE_HOST,CAMERAS_STATIC,STORAGE_NET,lan,lanip,opt1,opt1ip,opt4,opt4ip,opt5,opt5ip,opt6,opt6ip,opt7,opt7ip,opt8,opt8ip,wireguard,opt10,opt10ip</address>
-      </destination>
-      <updated>
-        <username>root@10.10.15.101</username>
-        <time>1792860144.38</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.15.101</username>
-        <time>1792859968.77</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="1aed840c-d2ea-4431-822c-9b8bbf04c59e">
-      <type>pass</type>
-      <interface>opt9</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@10.10.99.99</username>
-        <time>1792857584.30</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@10.10.99.99</username>
-        <time>1792857584.30</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="419b9985-02c6-44a5-a280-a3cd9cc69461">
       <type>pass</type>
       <interface>opt10</interface>
@@ -3323,6 +3275,69 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="277dc60e-cfcb-11f1-bca4-00e26980b58a">
+      <type>pass</type>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp/udp</protocol>
+      <source>
+        <network>opt9</network>
+      </source>
+      <destination>
+        <network>opt9ip</network>
+        <port>53</port>
+      </destination>
+      <descr>AP net: DNS to firewall</descr>
+    </rule>
+    <rule uuid="277de60a-cfcb-11f1-bca4-00e26980b58a">
+      <type>pass</type>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>icmp</protocol>
+      <source>
+        <network>opt9</network>
+      </source>
+      <destination>
+        <network>opt9ip</network>
+      </destination>
+      <descr>AP net: ping firewall</descr>
+    </rule>
+    <rule uuid="277e04e2-cfcb-11f1-bca4-00e26980b58a">
+      <type>block</type>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt9</network>
+      </source>
+      <destination>
+        <address>PRIVATE_NETS</address>
+      </destination>
+      <descr>AP net: block private networks and tailnet</descr>
+    </rule>
+    <rule uuid="277e22b9-cfcb-11f1-bca4-00e26980b58a">
+      <type>pass</type>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt9</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <descr>AP net: internet</descr>
+    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -3333,9 +3348,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.99.99</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1792860621.08</time>
+    <username>root@10.10.15.104</username>
+    <description>/api/tftp/general/set made changes</description>
+    <time>1793193715.36</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4600,8 +4615,8 @@ hub-data.crowdsec.net</content>
       </Filter>
     </Firewall>
     <tftp>
-      <general version="0.0.1">
-        <enabled>0</enabled>
+      <general version="0.0.1" persisted_at="1793193715.36" description="TFTP configuration">
+        <enabled>1</enabled>
         <listen>127.0.0.1</listen>
       </general>
     </tftp>
