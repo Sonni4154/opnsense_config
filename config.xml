@@ -3397,8 +3397,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/api/auth/user/add_api_key/claude-api made changes</description>
-    <time>1793445217.27</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1793446305.99</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4361,7 +4361,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Alias version="1.0.1" persisted_at="1793213317.56" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1793446305.99" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4669,6 +4669,24 @@ hub-data.crowdsec.net</content>
             <expire/>
             <categories/>
             <description>proxmox</description>
+          </alias>
+          <alias uuid="84f482fb-4ea2-4958-baf7-657f24c7af4b">
+            <enabled>1</enabled>
+            <name>TS_ADMINS</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>100.121.66.105
+100.70.147.71</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>WhiteKnight and iphone</description>
           </alias>
         </aliases>
       </Alias>
