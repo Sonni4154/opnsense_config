@@ -114,7 +114,7 @@
     <ssh>
       <group>admins</group>
       <noauto>1</noauto>
-      <interfaces>opt1</interfaces>
+      <interfaces>lan,opt1,opt9,opt10</interfaces>
       <kex/>
       <ciphers/>
       <macs/>
@@ -3423,8 +3423,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1793446637.02</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1793446722.20</time>
   </revision>
   <Deciso>
     <Proxy>
