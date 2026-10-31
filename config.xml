@@ -3422,9 +3422,10 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@100.70.147.71</username>
-    <description>user "claude-api" changed</description>
-    <time>1793447010.80</time>
+    <username>claude-api@10.10.10.98</username>
+    <user_apitoken>kfIpfd48AY7SGvXspmIIM5xBNJYNTGjRofOH1YYad4V/2/zM2UNG7kwVBvS5Usb4Z7eKG7HhnbBi97n/</user_apitoken>
+    <description>/api/firewall/filter/add_rule made changes</description>
+    <time>1793447380.29</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4716,8 +4717,63 @@ hub-data.crowdsec.net</content>
           </alias>
         </aliases>
       </Alias>
-      <Filter version="1.0.4">
-        <rules/>
+      <Filter version="1.0.4" persisted_at="1793447380.29" description="Firewall automation rules">
+        <rules>
+          <rule uuid="fea56ed5-44a8-48ad-b4c9-7ddd325fb57c">
+            <enabled>1</enabled>
+            <statetype>keep</statetype>
+            <state-policy/>
+            <sequence>1</sequence>
+            <action>pass</action>
+            <quick>1</quick>
+            <interfacenot>0</interfacenot>
+            <interface>opt10</interface>
+            <direction>in</direction>
+            <ipprotocol>inet46</ipprotocol>
+            <protocol>TCP</protocol>
+            <icmptype/>
+            <icmp6type/>
+            <source_net>TS_ADMINS</source_net>
+            <source_not>0</source_not>
+            <source_port/>
+            <destination_net>(self)</destination_net>
+            <destination_not>0</destination_not>
+            <destination_port>4443</destination_port>
+            <gateway/>
+            <replyto/>
+            <disablereplyto>0</disablereplyto>
+            <log>1</log>
+            <allowopts>0</allowopts>
+            <nosync>0</nosync>
+            <nopfsync>0</nopfsync>
+            <statetimeout/>
+            <udp-first/>
+            <udp-multiple/>
+            <udp-single/>
+            <max-src-nodes/>
+            <max-src-states/>
+            <max-src-conn/>
+            <max/>
+            <max-src-conn-rate/>
+            <max-src-conn-rates/>
+            <overload/>
+            <adaptivestart/>
+            <adaptiveend/>
+            <prio/>
+            <set-prio/>
+            <set-prio-low/>
+            <tag/>
+            <tagged/>
+            <tcpflags1/>
+            <tcpflags2/>
+            <categories/>
+            <sched/>
+            <tos/>
+            <shaper1/>
+            <shaper2/>
+            <description>TS admins to OPNsense GUI</description>
+          </rule>
+        </rules>
         <snatrules/>
         <npt/>
         <onetoone/>
