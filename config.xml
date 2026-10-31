@@ -3377,8 +3377,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>/api/tailscale/settings/set_subnet/539e34c9-4411-412a-8108-7b1af947e2fb made changes</description>
-    <time>1793444670.69</time>
+    <description>/api/tailscale/settings/set_subnet/63ba7bee-1ba2-4e0d-8b21-24cd267a6607 made changes</description>
+    <time>1793444676.28</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7370,7 +7370,7 @@ hub-data.crowdsec.net</content>
       </general>
     </Hostwatch>
     <tailscale>
-      <settings version="1.0.0" persisted_at="1793444670.69" description="Tailscale general settings">
+      <settings version="1.0.0" persisted_at="1793444676.28" description="Tailscale general settings">
         <enabled>1</enabled>
         <loginTimeout>10</loginTimeout>
         <listenPort>41641</listenPort>
@@ -7391,7 +7391,7 @@ hub-data.crowdsec.net</content>
           </subnet4>
           <subnet4 uuid="63ba7bee-1ba2-4e0d-8b21-24cd267a6607">
             <subnet>10.10.25.0/24</subnet>
-            <description/>
+            <description>CONTAINERS</description>
           </subnet4>
           <subnet4 uuid="61ac1676-c649-49d1-8141-7697fbce9f7c">
             <subnet>10.10.15.0/24</subnet>
