@@ -223,7 +223,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <landing_page/>
       <comment/>
       <email/>
-      <apikeys/>
+      <apikeys>kfIpfd48AY7SGvXspmIIM5xBNJYNTGjRofOH1YYad4V/2/zM2UNG7kwVBvS5Usb4Z7eKG7HhnbBi97n/|$6$$KHDKDOKi.qu.JEHg9rNRAA5vpB8qXFWsrLn8BqpeFtCvvXPPJwTaW2y/CU.X27vxupPs0fc.wFA6o5GSL0Tx7.</apikeys>
       <priv>page-user-crowdsec,page-diagnostics-arptable,page-diagnostics-backup-restore,page-diagnostics-system-pftop,page-diagnostics-pf-info,page-diagnostics-haltsystem,page-diagnostics-logs-firewall-general,page-diagnostics-logs-dhcp,page-diagnostics-logs-firewall-dynamic,page-diagnostics-logs-firewall-plain,page-diagnostics-logs-firewall-summary,page-diagnostics-logs-gateways,page-diagnostics-logs-system,page-diagnostics-ndptable,page-diagnostics-netflow,page-diagnostics-netstat,page-diagnostics-networkinsight,page-diagnostics-packetcapture,page-diagnostics-ping,page-diagnostics-routingtables,page-diagnostics-showstates,page-diagnostics-system-activity,page-diagnostics-testport,page-diagnostics-traceroute,page-firewall-alias-edit,page-firewall-aliases,page-filter-api,page-filter-snat-api,page-firewall-categories,page-interfaces-groups-edit,page-firewall-nat-1-1-edit,page-firewall-nat-npt,page-firewall-nat-outbound,page-firewall-nat-outbound-edit,page-firewall-nat-portforward,page-firewall-nat-portforward-edit,page-firewall-scrub,page-firewall-rules,page-firewall-rules-edit,page-firewall-schedules,page-firewall-schedules-edit,page-firewall-trafficshaper,page-status-trafficgraph,page-services-clamav,page-services-dhcpserver,page-services-dhcpserver-editstaticmapping,page-dhcp-kea-ctrl-agent,page-diagnostics-logs-kea,page-dhcp-kea-v4,page-diagnostics-logs-dnsmasq,page-services-dnsforwarder,page-services-dyndns,page-services-ids,page-services-netdata,page-ntopng-config,page-services-ntpd,page-services-router-advertisements,page-services-tftp,page-status-dhcpleases,page-status-dhcpv6leases,page-status-dnsoverview,page-status-habackup,page-status-interfaces,page-status-ipsec,page-status-ipsec-leases,page-status-ipsec-sad,page-status-ipsec-spd,page-status-ntp,page-services-ntp-gps,page-services-ntp-pps,page-status-openvpn,page-status-services,page-status-systemlogs-portalauth,page-status-systemlogs-ipsecvpn,page-status-systemlogs-ntpd,page-status-systemlogs-openvpn,page-status-systemlogs-ppp,page-status-systemlogs-routing,page-status-systemlogs-wireless,page-diagnostics-wirelessstatus,page-tailscale-config,page-wireguard-config,page-wireguard-logs,page-wireguard-diagnostics</priv>
       <language/>
       <descr/>
@@ -3397,8 +3397,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.1</username>
-    <description>user "claude-api" created</description>
-    <time>1793445193.54</time>
+    <description>/api/auth/user/add_api_key/claude-api made changes</description>
+    <time>1793445217.27</time>
   </revision>
   <Deciso>
     <Proxy>
