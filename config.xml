@@ -3422,9 +3422,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1793617238.45</time>
+    <username>root@10.10.99.99</username>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1793769651.32</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7498,7 +7498,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1788146105.20" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1793769651.32" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -7637,6 +7637,18 @@ hub-data.crowdsec.net</content>
           <server>10.10.10.201</server>
           <txtdata/>
           <description>core-services proxmox vm 110</description>
+        </host>
+        <host uuid="8314d21b-1c43-4d5b-b45e-d74a9a47ecea">
+          <enabled>1</enabled>
+          <hostname>pve-1</hostname>
+          <domain>tail44060d.ts.net</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>10.10.99.10</server>
+          <txtdata/>
+          <description>Proxmox UI HTTPS</description>
         </host>
       </hosts>
       <aliases/>
