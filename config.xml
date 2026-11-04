@@ -122,7 +122,6 @@
       <keysig/>
       <rekeylimit/>
       <enabled>enabled</enabled>
-      <passwordauth>1</passwordauth>
       <port>22</port>
       <permitrootlogin>1</permitrootlogin>
     </ssh>
@@ -3423,8 +3422,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.99.99</username>
-    <description>user "root" changed</description>
-    <time>1793770450.18</time>
+    <description>/system_advanced_admin.php made changes</description>
+    <time>1793770503.40</time>
   </revision>
   <Deciso>
     <Proxy>
