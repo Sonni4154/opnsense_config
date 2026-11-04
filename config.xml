@@ -91,7 +91,7 @@
     <timeservers>time.cloudflare.com time.google.com 0.pool.ntp.org 1.pool.ntp.org 1.opnsense.pool.ntp.org</timeservers>
     <webgui>
       <protocol>https</protocol>
-      <ssl-certref>6954f391f0dcf</ssl-certref>
+      <ssl-certref>6aeac4671931e</ssl-certref>
       <port>4443</port>
       <compression/>
       <httpaccesslog>1</httpaccesslog>
@@ -3423,7 +3423,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/root/tscert/import.php made changes</description>
-    <time>1793770599.11</time>
+    <time>1793770599.13</time>
   </revision>
   <Deciso>
     <Proxy>
