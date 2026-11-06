@@ -2390,6 +2390,32 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="80925972-8b73-44a6-90bd-e99312041a9c">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Command Center TCP -&gt; Hosts</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>tcp</protocol>
+      <source>
+        <address>CMDCTR</address>
+      </source>
+      <destination>
+        <address>lan,opt2</address>
+      </destination>
+      <updated>
+        <username>root@10.10.99.99</username>
+        <time>1793965663.94</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.99.99</username>
+        <time>1793965663.94</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="a11e2e56-77e1-492e-8d11-5cecda8ac17f">
       <type>pass</type>
       <interface>opt2</interface>
@@ -3449,7 +3475,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.99.99</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1793965615.56</time>
+    <time>1793965664.12</time>
   </revision>
   <Deciso>
     <Proxy>
