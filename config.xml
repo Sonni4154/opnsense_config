@@ -3421,9 +3421,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/root/tscert/fixcron.php made changes</description>
-    <time>1793963998.12</time>
+    <username>root@10.10.99.99</username>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1793965514.78</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -4386,7 +4386,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <Category version="1.0.0">
         <categories/>
       </Category>
-      <Alias version="1.0.1" persisted_at="1793446307.89" description="Firewall aliases">
+      <Alias version="1.0.1" persisted_at="1793965514.77" description="Firewall aliases">
         <geoip>
           <url/>
         </geoip>
@@ -4712,6 +4712,23 @@ hub-data.crowdsec.net</content>
             <expire/>
             <categories/>
             <description>WhiteKnight and iphone</description>
+          </alias>
+          <alias uuid="e2d2f5c5-f371-4ccf-9b60-1bc76dda6f46">
+            <enabled>1</enabled>
+            <name>CMDCTR</name>
+            <type>host</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>10.10.99.20</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>Proxmox Homepage Command Center</description>
           </alias>
         </aliases>
       </Alias>
