@@ -3422,8 +3422,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/root/tscert/import.php made changes</description>
-    <time>1793770599.13</time>
+    <description>/root/tscert/addcron.php made changes</description>
+    <time>1793963967.64</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -5151,7 +5151,7 @@ hub-data.crowdsec.net</content>
     <OpenVPNExport version="0.0.1">
       <servers/>
     </OpenVPNExport>
-    <cron version="1.0.4">
+    <cron version="1.0.4" persisted_at="1793963967.64" description="Cron settings">
       <jobs>
         <job uuid="577ce44a-7eea-4e30-9e45-227204602e68">
           <origin>IDS</origin>
@@ -5282,6 +5282,19 @@ hub-data.crowdsec.net</content>
           <command>zfs scrub</command>
           <parameters/>
           <description>zfs scrub</description>
+        </job>
+        <job uuid="4d8e5f23-ca32-4587-b9c0-2aadbf60b099">
+          <origin>cron</origin>
+          <enabled>1</enabled>
+          <minutes>0</minutes>
+          <hours>0</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>0</weekdays>
+          <who>root</who>
+          <command>tscert renew</command>
+          <parameters/>
+          <description>Renew Tailscale Web GUI certificate</description>
         </job>
       </jobs>
     </cron>
