@@ -700,6 +700,15 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <hostname>tplink-ap</hostname>
         <descr>TP-Link Archer A7 access point</descr>
       </staticmap>
+      <staticmap>
+        <mac>9e:b6:8a:1c:50:00</mac>
+        <ipaddr>10.10.15.15</ipaddr>
+        <hostname>sonny-laptop</hostname>
+        <descr>Sonny laptop (WLAN)</descr>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt9>
   </dhcpd>
   <snmpd>
@@ -3443,6 +3452,54 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </destination>
       <descr>AP net: ping firewall</descr>
     </rule>
+    <rule uuid="277e22b9-cfcb-11f1-bca4-00e26980b58a">
+      <type>pass</type>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>10.10.15.15</address>
+      </source>
+      <destination>
+        <network>opt1</network>
+      </destination>
+      <descr>Laptop 10.10.15.15 -&gt; MGMT</descr>
+      <uuid>c3f6eeb6-f0d9-4e77-a3e4-9e05fae32c9e</uuid>
+    </rule>
+    <rule uuid="277e22b9-cfcb-11f1-bca4-00e26980b58a">
+      <type>pass</type>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>10.10.15.15</address>
+      </source>
+      <destination>
+        <network>lan</network>
+      </destination>
+      <descr>Laptop 10.10.15.15 -&gt; LAN</descr>
+      <uuid>82310107-6d9c-4b5f-af49-697db94f83b4</uuid>
+    </rule>
+    <rule uuid="277e22b9-cfcb-11f1-bca4-00e26980b58a">
+      <type>pass</type>
+      <interface>opt9</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <address>10.10.15.15</address>
+      </source>
+      <destination>
+        <network>opt2</network>
+      </destination>
+      <descr>Laptop 10.10.15.15 -&gt; CONTAINERS</descr>
+      <uuid>18672ee9-29dc-43da-940f-8059faa21664</uuid>
+    </rule>
     <rule uuid="277e04e2-cfcb-11f1-bca4-00e26980b58a">
       <type>block</type>
       <interface>opt9</interface>
@@ -3563,9 +3620,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>Standard input code made changes</description>
-    <time>1793966256.82</time>
+    <username>(root)</username>
+    <description>Claude: laptop 10.10.15.15 static map + WLAN-&gt;MGMT/LAN/CONTAINERS rules</description>
+    <time>1793985676.31</time>
   </revision>
   <Deciso>
     <Proxy>
