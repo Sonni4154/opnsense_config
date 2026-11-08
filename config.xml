@@ -625,6 +625,15 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>02:14:f5:f3:ba:7f</mac>
+        <cid>ZimaOS on PVE</cid>
+        <ipaddr>10.10.25.65</ipaddr>
+        <hostname>ZimaOS</hostname>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt2>
     <opt8>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
@@ -3651,9 +3660,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>Static DHCP mapping for Home Assistant (VM 300) -&gt; 10.10.25.30</description>
-    <time>1794150811.42</time>
+    <username>root@10.10.10.1</username>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1794151067.07</time>
   </revision>
   <Deciso>
     <Proxy>
