@@ -229,6 +229,26 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
     <backupcount>50</backupcount>
+    <user uuid="37444094-d01d-4575-ba36-3afd237f3a87">
+      <uid>2002</uid>
+      <name>homarr-ro</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$jQ1f1q13QZFSwzAYpbnLgeY65XG5iAsCYFNgD8TZ/o80hQGDIawES</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys/>
+      <priv>page-system-login-logout,page-status-trafficgraph</priv>
+      <language/>
+      <descr>Homarr read-only API (command-center 10.10.99.20)</descr>
+      <dashboard/>
+    </user>
   </system>
   <interfaces>
     <wan>
@@ -3622,8 +3642,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>Standard input code made changes</description>
-    <time>1794136638.50</time>
+    <description>/tmp/mkuser.php made changes</description>
+    <time>1794137337.23</time>
   </revision>
   <Deciso>
     <Proxy>
