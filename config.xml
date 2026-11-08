@@ -647,6 +647,17 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>bc:24:11:03:06:bc</mac>
+        <cid>sonny</cid>
+        <ipaddr>10.10.25.250</ipaddr>
+        <hostname>sonny</hostname>
+        <descr>box</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt2>
     <opt8>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
@@ -3685,7 +3696,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.10.1</username>
     <description>/services_dhcp_edit.php made changes</description>
-    <time>1794151639.04</time>
+    <time>1794152040.85</time>
   </revision>
   <Deciso>
     <Proxy>
