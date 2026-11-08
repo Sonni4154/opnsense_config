@@ -3642,8 +3642,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/tmp/mkuser.php made changes</description>
-    <time>1794137337.27</time>
+    <description>/tmp/override.php made changes</description>
+    <time>1794137471.03</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7747,7 +7747,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1794136103.73" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1794137471.03" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -7910,6 +7910,18 @@ hub-data.crowdsec.net</content>
           <server>10.10.10.1</server>
           <txtdata/>
           <description/>
+        </host>
+        <host uuid="03c056d8-3c02-477d-b3a2-c226a8ef7326">
+          <enabled>1</enabled>
+          <hostname>command-center</hostname>
+          <domain>tail44060d.ts.net</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>10.10.99.20</server>
+          <txtdata/>
+          <description>Command Center (Homarr) HTTPS</description>
         </host>
       </hosts>
       <aliases/>
