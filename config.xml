@@ -87,6 +87,26 @@
       <descr/>
       <dashboard/>
     </user>
+    <user uuid="37444094-d01d-4575-ba36-3afd237f3a87">
+      <uid>2002</uid>
+      <name>homarr-ro</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$jQ1f1q13QZFSwzAYpbnLgeY65XG5iAsCYFNgD8TZ/o80hQGDIawES</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys>2DwkCmlIBW9YhzVIykh0dUwFC9tualTWpLMvAHOMJ5U9+5ifJU4uC6mLxYjJoRzbk1x0RapvRNeiPlQ9|$6$$0kiAi8p2X8mHo6jghPOqWhslyYNoTc1P9RNYc3Xg0JFC5toL3bgV2ZUotgYaR7TveXyvx0a0rlczqIKU66Eim/</apikeys>
+      <priv>page-system-login-logout,page-status-trafficgraph</priv>
+      <language/>
+      <descr>Homarr read-only API (command-center 10.10.99.20)</descr>
+      <dashboard/>
+    </user>
     <timezone>America/Los_Angeles</timezone>
     <timeservers>time.cloudflare.com time.google.com 0.pool.ntp.org 1.pool.ntp.org 1.opnsense.pool.ntp.org</timeservers>
     <webgui>
@@ -229,26 +249,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
     <backupcount>50</backupcount>
-    <user uuid="37444094-d01d-4575-ba36-3afd237f3a87">
-      <uid>2002</uid>
-      <name>homarr-ro</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell/>
-      <password>$2y$11$jQ1f1q13QZFSwzAYpbnLgeY65XG5iAsCYFNgD8TZ/o80hQGDIawES</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment/>
-      <email/>
-      <apikeys>2DwkCmlIBW9YhzVIykh0dUwFC9tualTWpLMvAHOMJ5U9+5ifJU4uC6mLxYjJoRzbk1x0RapvRNeiPlQ9|$6$$0kiAi8p2X8mHo6jghPOqWhslyYNoTc1P9RNYc3Xg0JFC5toL3bgV2ZUotgYaR7TveXyvx0a0rlczqIKU66Eim/</apikeys>
-      <priv>page-system-login-logout,page-status-trafficgraph</priv>
-      <language/>
-      <descr>Homarr read-only API (command-center 10.10.99.20)</descr>
-      <dashboard/>
-    </user>
   </system>
   <interfaces>
     <wan>
@@ -610,6 +610,16 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <ipaddr>10.10.25.10</ipaddr>
         <hostname>netbox</hostname>
         <descr>Physical/Virtual Resource Manager</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>02:97:ef:be:16:af</mac>
+        <ipaddr>10.10.25.30</ipaddr>
+        <hostname>homeassistant</hostname>
+        <descr>Home Assistant OS (VM 300)</descr>
         <arp_table_static_entry>1</arp_table_static_entry>
         <winsserver/>
         <dnsserver/>
@@ -3641,9 +3651,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/tmp/override.php made changes</description>
-    <time>1794137471.03</time>
+    <username>(root)</username>
+    <description>Static DHCP mapping for Home Assistant (VM 300) -&gt; 10.10.25.30</description>
+    <time>1794150811.42</time>
   </revision>
   <Deciso>
     <Proxy>
