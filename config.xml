@@ -3620,9 +3620,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(root)</username>
-    <description>Claude: laptop 10.10.15.15 static map + WLAN-&gt;MGMT/LAN/CONTAINERS rules</description>
-    <time>1793985676.31</time>
+    <username>root@10.10.99.99</username>
+    <description>/api/unbound/settings/add_host_override/ made changes</description>
+    <time>1794136005.71</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -7726,7 +7726,7 @@ hub-data.crowdsec.net</content>
         <crowdsec_firewall_verbose>1</crowdsec_firewall_verbose>
       </general>
     </crowdsec>
-    <unboundplus version="1.0.13" persisted_at="1793769651.32" description="Unbound configuration">
+    <unboundplus version="1.0.13" persisted_at="1794136005.71" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -7877,6 +7877,18 @@ hub-data.crowdsec.net</content>
           <server>10.10.99.10</server>
           <txtdata/>
           <description>Proxmox UI HTTPS</description>
+        </host>
+        <host uuid="92eacdd8-54a8-40da-a36b-39aacaebd9d5">
+          <enabled>1</enabled>
+          <hostname>opnsense</hostname>
+          <domain>tail4406d.ts.net</domain>
+          <rr>A</rr>
+          <mxprio/>
+          <mx/>
+          <ttl/>
+          <server>10.10.10.1</server>
+          <txtdata/>
+          <description/>
         </host>
       </hosts>
       <aliases/>
