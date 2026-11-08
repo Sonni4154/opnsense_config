@@ -1471,6 +1471,30 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="d892d60d-fe70-481b-a6fa-e798dc365895">
+      <type>pass</type>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>any</direction>
+      <floating>yes</floating>
+      <quick>1</quick>
+      <source>
+        <address>lanip,opt1ip,opt2ip,opt5ip,opt9ip,opt10ip</address>
+      </source>
+      <destination>
+        <address>blackknight</address>
+      </destination>
+      <updated>
+        <username>root@10.10.10.1</username>
+        <time>1794157776.35</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.1</username>
+        <time>1794157776.35</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="6cc7b103-71db-4935-87f7-4910f5e6d422">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -3799,7 +3823,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.10.1</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1794157775.99</time>
+    <time>1794157776.54</time>
   </revision>
   <Deciso>
     <Proxy>
