@@ -631,6 +631,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <staticarp>1</staticarp>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
       <tftp>10.10.10.98</tftp>
+      <netboot>1</netboot>
       <nextserver>10.10.10.98</nextserver>
       <filename>netboot.xyz.kpxe</filename>
       <filename64>netboot.xyz.efi</filename64>
@@ -3736,7 +3737,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.10.1</username>
     <description>/services_dhcp.php made changes</description>
-    <time>1794155376.04</time>
+    <time>1794155587.46</time>
   </revision>
   <Deciso>
     <Proxy>
