@@ -98,6 +98,7 @@
       <ssl-ciphers/>
       <interfaces/>
       <authmode>Local Database</authmode>
+      <althostnames>opnsense.tail44060d.ts.net</althostnames>
     </webgui>
     <disablenatreflection>yes</disablenatreflection>
     <usevirtualterminal>1</usevirtualterminal>
@@ -3621,8 +3622,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/root/tscert/fixdns.php made changes</description>
-    <time>1794136103.73</time>
+    <description>/root/tscert/althost.php made changes</description>
+    <time>1794136362.22</time>
   </revision>
   <Deciso>
     <Proxy>
