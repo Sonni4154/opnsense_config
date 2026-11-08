@@ -425,7 +425,16 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <filename64arm>netboot.xyz-arm64.efi</filename64arm>
       <filenameipxe>netboot.efi</filenameipxe>
       <numberoptions>
-        <item/>
+        <item>
+          <number>69</number>
+          <type>text</type>
+          <value>10.10.10.98</value>
+        </item>
+        <item>
+          <number>66</number>
+          <type>text</type>
+          <value>10.10.10.98</value>
+        </item>
       </numberoptions>
       <range>
         <from>10.10.10.100</from>
@@ -3766,7 +3775,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.10.1</username>
     <description>/services_dhcp.php made changes</description>
-    <time>1794157432.65</time>
+    <time>1794157493.35</time>
   </revision>
   <Deciso>
     <Proxy>
