@@ -249,6 +249,26 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
     <backupcount>50</backupcount>
+    <user uuid="0ef9c254-5dd6-45e0-9cca-65bf031d3d05">
+      <uid>2003</uid>
+      <name>homeassistant-api</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$ZsK4aOWFgN9rSLBCQfj8tumv5eE6ag6iPrujOGggZtKrwqx.FEQkW</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys/>
+      <priv>page-system-login-logout,page-status-interfaces,page-system-firmware-manualupdate,page-system-gateways,page-system-status,page-status-dhcpleases,page-status-trafficgraph</priv>
+      <language/>
+      <descr>Home Assistant hass-opnsense (VM 300 10.10.25.30) - granular read + firmware</descr>
+      <dashboard/>
+    </user>
   </system>
   <interfaces>
     <wan>
@@ -3704,9 +3724,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.10.1</username>
-    <description>/services_dhcp_edit.php made changes</description>
-    <time>1794152276.77</time>
+    <username>(system)</username>
+    <description>/tmp/mkuser_ha.php made changes</description>
+    <time>1794154067.80</time>
   </revision>
   <Deciso>
     <Proxy>
