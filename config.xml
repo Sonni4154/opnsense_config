@@ -122,7 +122,7 @@
       <comment/>
       <email/>
       <apikeys>EzXMJ08dDfdiyx0ECpKK+lMVTYqS1oUOxVX+XUHoFJZG4idJ4gECGNTX4KWAkYvX2ohU5jLmKr5G0rzV|$6$$S/cCdGL2ztYppvHLrlm2XSY4ty4wIqgJC9QmnCX9Fb2X0VzqwwAPzTG1tpQYap1ABUbt7vPiNT7ETBRxB8j3w1</apikeys>
-      <priv>page-system-login-logout,page-status-interfaces,page-system-firmware-manualupdate,page-system-gateways,page-system-status,page-status-dhcpleases,page-status-trafficgraph</priv>
+      <priv>page-system-login-logout,page-status-interfaces,page-system-firmware-manualupdate,page-system-gateways,page-system-status,page-status-dhcpleases,page-status-trafficgraph,page-diagnostics-arptable</priv>
       <language/>
       <descr>Home Assistant hass-opnsense (VM 300 10.10.25.30) - granular read + firmware</descr>
       <dashboard/>
@@ -3736,9 +3736,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.10.1</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1794155599.75</time>
+    <username>(system)</username>
+    <description>/tmp/addpriv.php made changes</description>
+    <time>1794155980.60</time>
   </revision>
   <Deciso>
     <Proxy>
