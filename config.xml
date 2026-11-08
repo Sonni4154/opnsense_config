@@ -263,7 +263,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <landing_page/>
       <comment/>
       <email/>
-      <apikeys/>
+      <apikeys>EzXMJ08dDfdiyx0ECpKK+lMVTYqS1oUOxVX+XUHoFJZG4idJ4gECGNTX4KWAkYvX2ohU5jLmKr5G0rzV|$6$$S/cCdGL2ztYppvHLrlm2XSY4ty4wIqgJC9QmnCX9Fb2X0VzqwwAPzTG1tpQYap1ABUbt7vPiNT7ETBRxB8j3w1</apikeys>
       <priv>page-system-login-logout,page-status-interfaces,page-system-firmware-manualupdate,page-system-gateways,page-system-status,page-status-dhcpleases,page-status-trafficgraph</priv>
       <language/>
       <descr>Home Assistant hass-opnsense (VM 300 10.10.25.30) - granular read + firmware</descr>
@@ -3726,7 +3726,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/tmp/mkuser_ha.php made changes</description>
-    <time>1794154067.80</time>
+    <time>1794154067.85</time>
   </revision>
   <Deciso>
     <Proxy>
