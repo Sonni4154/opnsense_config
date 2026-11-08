@@ -423,18 +423,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <filename>netboot.xyz.kpxe</filename>
       <filename64>netboot.xyz.efi</filename64>
       <filename64arm>netboot.xyz-arm64.efi</filename64arm>
-      <filenameipxe>netboot.efi</filenameipxe>
       <numberoptions>
-        <item>
-          <number>69</number>
-          <type>text</type>
-          <value>10.10.10.98</value>
-        </item>
-        <item>
-          <number>66</number>
-          <type>text</type>
-          <value>10.10.10.98</value>
-        </item>
+        <item/>
       </numberoptions>
       <range>
         <from>10.10.10.100</from>
@@ -3822,8 +3812,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.1</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1794157836.70</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1794157990.30</time>
   </revision>
   <Deciso>
     <Proxy>
