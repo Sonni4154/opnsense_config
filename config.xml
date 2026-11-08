@@ -642,6 +642,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <cid>ZimaOS on PVE</cid>
         <ipaddr>10.10.25.65</ipaddr>
         <hostname>ZimaOS</hostname>
+        <descr>Virtualization of ZIMAOS</descr>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -3674,7 +3675,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.10.1</username>
     <description>/services_dhcp_edit.php made changes</description>
-    <time>1794151142.74</time>
+    <time>1794151160.41</time>
   </revision>
   <Deciso>
     <Proxy>
