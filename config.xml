@@ -107,6 +107,26 @@
       <descr>Homarr read-only API (command-center 10.10.99.20)</descr>
       <dashboard/>
     </user>
+    <user uuid="0ef9c254-5dd6-45e0-9cca-65bf031d3d05">
+      <uid>2003</uid>
+      <name>homeassistant-api</name>
+      <disabled>0</disabled>
+      <scope>user</scope>
+      <expires/>
+      <authorizedkeys/>
+      <otp_seed/>
+      <shell/>
+      <password>$2y$11$ZsK4aOWFgN9rSLBCQfj8tumv5eE6ag6iPrujOGggZtKrwqx.FEQkW</password>
+      <pwd_changed_at/>
+      <landing_page/>
+      <comment/>
+      <email/>
+      <apikeys>EzXMJ08dDfdiyx0ECpKK+lMVTYqS1oUOxVX+XUHoFJZG4idJ4gECGNTX4KWAkYvX2ohU5jLmKr5G0rzV|$6$$S/cCdGL2ztYppvHLrlm2XSY4ty4wIqgJC9QmnCX9Fb2X0VzqwwAPzTG1tpQYap1ABUbt7vPiNT7ETBRxB8j3w1</apikeys>
+      <priv>page-system-login-logout,page-status-interfaces,page-system-firmware-manualupdate,page-system-gateways,page-system-status,page-status-dhcpleases,page-status-trafficgraph</priv>
+      <language/>
+      <descr>Home Assistant hass-opnsense (VM 300 10.10.25.30) - granular read + firmware</descr>
+      <dashboard/>
+    </user>
     <timezone>America/Los_Angeles</timezone>
     <timeservers>time.cloudflare.com time.google.com 0.pool.ntp.org 1.pool.ntp.org 1.opnsense.pool.ntp.org</timeservers>
     <webgui>
@@ -249,26 +269,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <GDrivePassword>TTrustno22$$</GDrivePassword>
     </remotebackup>
     <backupcount>50</backupcount>
-    <user uuid="0ef9c254-5dd6-45e0-9cca-65bf031d3d05">
-      <uid>2003</uid>
-      <name>homeassistant-api</name>
-      <disabled>0</disabled>
-      <scope>user</scope>
-      <expires/>
-      <authorizedkeys/>
-      <otp_seed/>
-      <shell/>
-      <password>$2y$11$ZsK4aOWFgN9rSLBCQfj8tumv5eE6ag6iPrujOGggZtKrwqx.FEQkW</password>
-      <pwd_changed_at/>
-      <landing_page/>
-      <comment/>
-      <email/>
-      <apikeys>EzXMJ08dDfdiyx0ECpKK+lMVTYqS1oUOxVX+XUHoFJZG4idJ4gECGNTX4KWAkYvX2ohU5jLmKr5G0rzV|$6$$S/cCdGL2ztYppvHLrlm2XSY4ty4wIqgJC9QmnCX9Fb2X0VzqwwAPzTG1tpQYap1ABUbt7vPiNT7ETBRxB8j3w1</apikeys>
-      <priv>page-system-login-logout,page-status-interfaces,page-system-firmware-manualupdate,page-system-gateways,page-system-status,page-status-dhcpleases,page-status-trafficgraph</priv>
-      <language/>
-      <descr>Home Assistant hass-opnsense (VM 300 10.10.25.30) - granular read + firmware</descr>
-      <dashboard/>
-    </user>
   </system>
   <interfaces>
     <wan>
@@ -626,6 +626,12 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <enable>1</enable>
       <staticarp>1</staticarp>
       <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <tftp>10.10.10.98</tftp>
+      <nextserver>10.10.10.98</nextserver>
+      <filename>netboot.xyz.kpxe</filename>
+      <filename64>netboot.xyz.efi</filename64>
+      <filename64arm>netboot.xyz-arm64.efi</filename64arm>
+      <filenameipxe>http://boot.netboot.xyz/menu.ipxe </filenameipxe>
       <numberoptions>
         <item/>
       </numberoptions>
@@ -3724,9 +3730,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/tmp/mkuser_ha.php made changes</description>
-    <time>1794154067.85</time>
+    <username>root@10.10.10.1</username>
+    <description>/services_dhcp.php made changes</description>
+    <time>1794155087.58</time>
   </revision>
   <Deciso>
     <Proxy>
