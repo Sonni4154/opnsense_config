@@ -762,6 +762,16 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>d2:b7:3c:44:28:b9</mac>
+        <cid>My iPhone</cid>
+        <ipaddr>10.10.15.16</ipaddr>
+        <hostname>iPhone</hostname>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt9>
   </dhcpd>
   <snmpd>
@@ -3674,8 +3684,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.1</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1794151590.62</time>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1794151639.04</time>
   </revision>
   <Deciso>
     <Proxy>
