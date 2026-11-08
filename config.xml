@@ -243,7 +243,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <landing_page/>
       <comment/>
       <email/>
-      <apikeys/>
+      <apikeys>2DwkCmlIBW9YhzVIykh0dUwFC9tualTWpLMvAHOMJ5U9+5ifJU4uC6mLxYjJoRzbk1x0RapvRNeiPlQ9|$6$$0kiAi8p2X8mHo6jghPOqWhslyYNoTc1P9RNYc3Xg0JFC5toL3bgV2ZUotgYaR7TveXyvx0a0rlczqIKU66Eim/</apikeys>
       <priv>page-system-login-logout,page-status-trafficgraph</priv>
       <language/>
       <descr>Homarr read-only API (command-center 10.10.99.20)</descr>
@@ -3643,7 +3643,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>(system)</username>
     <description>/tmp/mkuser.php made changes</description>
-    <time>1794137337.23</time>
+    <time>1794137337.27</time>
   </revision>
   <Deciso>
     <Proxy>
