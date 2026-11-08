@@ -525,6 +525,17 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>bc:24:11:49:f7:4f</mac>
+        <ipaddr>10.10.99.20</ipaddr>
+        <hostname>command-center</hostname>
+        <descr>Command Center VM 500</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <gateway>10.10.99.1</gateway>
+        <winsserver/>
+        <dnsserver>10.10.99.1</dnsserver>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>74:56:3c:bd:5d:77</mac>
         <ipaddr>10.10.99.99</ipaddr>
         <hostname>BOX</hostname>
@@ -536,14 +547,13 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>bc:24:11:49:f7:4f</mac>
-        <ipaddr>10.10.99.20</ipaddr>
-        <hostname>command-center</hostname>
-        <descr>Command Center VM 500</descr>
+        <mac>bc:24:11:03:06:bc</mac>
+        <cid>sonny</cid>
+        <ipaddr>10.10.99.250</ipaddr>
+        <hostname>sonny</hostname>
         <arp_table_static_entry>1</arp_table_static_entry>
-        <gateway>10.10.99.1</gateway>
         <winsserver/>
-        <dnsserver>10.10.99.1</dnsserver>
+        <dnsserver/>
         <ntpserver/>
       </staticmap>
     </opt1>
@@ -3695,8 +3705,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.1</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1794152101.00</time>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1794152276.77</time>
   </revision>
   <Deciso>
     <Proxy>
