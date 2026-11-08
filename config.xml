@@ -92,7 +92,7 @@
     <webgui>
       <protocol>https</protocol>
       <ssl-certref>6aeac4671931e</ssl-certref>
-      <port>4443</port>
+      <port>443</port>
       <compression/>
       <httpaccesslog>1</httpaccesslog>
       <ssl-ciphers/>
@@ -3622,8 +3622,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/root/tscert/althost.php made changes</description>
-    <time>1794136362.22</time>
+    <description>Standard input code made changes</description>
+    <time>1794136638.50</time>
   </revision>
   <Deciso>
     <Proxy>
