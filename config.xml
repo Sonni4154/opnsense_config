@@ -696,6 +696,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <hostname>sonny</hostname>
         <descr>box</descr>
         <arp_table_static_entry>1</arp_table_static_entry>
+        <tftp>10.10.10.98</tftp>
+        <bootfilename>ipxe.efi</bootfilename>
         <winsserver/>
         <dnsserver/>
         <ntpserver/>
@@ -3737,8 +3739,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.1</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1794155104.16</time>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1794155287.57</time>
   </revision>
   <Deciso>
     <Proxy>
