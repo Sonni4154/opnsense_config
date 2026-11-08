@@ -1434,6 +1434,32 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     </rule>
   </nat>
   <filter>
+    <rule uuid="e1512f7d-c494-4366-9676-3675154c1a71">
+      <type>pass</type>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>any</direction>
+      <floating>yes</floating>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <address>lanip,opt1ip,opt2ip,opt5ip,opt9ip,opt10ip</address>
+      </source>
+      <destination>
+        <address>blackknight</address>
+        <port>69</port>
+      </destination>
+      <updated>
+        <username>root@10.10.10.1</username>
+        <time>1794156007.41</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@10.10.10.1</username>
+        <time>1794156007.41</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="0d752e2d-bfc6-4437-944b-35406bd8da20">
       <type>pass</type>
       <interface>wan</interface>
@@ -3736,9 +3762,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/tmp/addpriv.php made changes</description>
-    <time>1794155980.60</time>
+    <username>root@10.10.10.1</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1794156007.59</time>
   </revision>
   <Deciso>
     <Proxy>
