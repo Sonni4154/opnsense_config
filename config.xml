@@ -617,6 +617,17 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <ntpserver/>
       </staticmap>
       <staticmap>
+        <mac>bc:24:11:5b:1b:f4</mac>
+        <cid>PVE Scripts Local</cid>
+        <ipaddr>10.10.25.25</ipaddr>
+        <hostname>pve-scripts-local</hostname>
+        <descr>PVE Scripts Local</descr>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
         <mac>02:97:ef:be:16:af</mac>
         <ipaddr>10.10.25.30</ipaddr>
         <hostname>homeassistant</hostname>
@@ -3662,8 +3673,8 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   </ntpd>
   <revision>
     <username>root@10.10.10.1</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1794151073.52</time>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1794151142.74</time>
   </revision>
   <Deciso>
     <Proxy>
