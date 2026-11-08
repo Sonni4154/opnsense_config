@@ -571,16 +571,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <dnsserver>1.1.1.1</dnsserver>
         <ntpserver/>
       </staticmap>
-      <staticmap>
-        <mac>bc:24:11:03:06:bc</mac>
-        <cid>sonny</cid>
-        <ipaddr>10.10.99.250</ipaddr>
-        <hostname>sonny</hostname>
-        <arp_table_static_entry>1</arp_table_static_entry>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
+      <pool/>
     </opt1>
     <opt4>
       <enable>1</enable>
@@ -3813,7 +3804,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.10.1</username>
     <description>/services_dhcp.php made changes</description>
-    <time>1794157990.80</time>
+    <time>1794164434.77</time>
   </revision>
   <Deciso>
     <Proxy>
