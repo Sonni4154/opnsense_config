@@ -637,6 +637,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       </range>
       <winsserver/>
       <dnsserver>10.10.25.1</dnsserver>
+      <dnsserver>10.10.10.1</dnsserver>
       <ntpserver/>
       <staticmap>
         <mac>bc:24:11:58:29:1b</mac>
@@ -3802,9 +3803,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1794192287.07</time>
+    <username>root@10.10.10.1</username>
+    <description>/services_dhcp.php made changes</description>
+    <time>1794194802.40</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -5696,7 +5697,7 @@ hub-data.crowdsec.net</content>
         </job>
       </jobs>
     </cron>
-    <Nginx version="1.35.1" persisted_at="1770549008.02" description="nginx web server, reverse proxy and waf">
+    <Nginx version="1.35.2" persisted_at="1794192526.75" description="nginx web server, reverse proxy and waf">
       <general>
         <enabled>0</enabled>
         <ban_ttl>4320</ban_ttl>
@@ -5827,6 +5828,7 @@ hub-data.crowdsec.net</content>
         <charset>utf-8</charset>
         <https_only>0</https_only>
         <http2>1</http2>
+        <enable_http3>0</enable_http3>
         <tls_protocols>TLSv1.2,TLSv1.3</tls_protocols>
         <tls_ciphers>ECDHE-ECDSA-CAMELLIA256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-CAMELLIA256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-ECDSA-CAMELLIA128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-CAMELLIA128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-ECDSA-CAMELLIA256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-CAMELLIA256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-ECDSA-CAMELLIA128-SHA256:ECDHE-RSA-AES128-SHA256</tls_ciphers>
         <tls_ecdh_curve/>
