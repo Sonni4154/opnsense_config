@@ -3803,9 +3803,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1794216966.77</time>
+    <username>root@10.10.10.1</username>
+    <description>/api/udpbroadcastrelay/settings/add_relay/ made changes</description>
+    <time>1794217025.28</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -8153,7 +8153,18 @@ hub-data.crowdsec.net</content>
         <preAuthKey>tskey-auth-k8SiSkHsRy11CNTRL-iDmDfMm4DphEgi55WCxNphD1kfYFMR8j</preAuthKey>
       </authentication>
     </tailscale>
-    <udpbroadcastrelays version="1.0.0" persisted_at="1794216965.60" description="UDP Broadcast Relay settings"/>
+    <udpbroadcastrelays version="1.0.0" persisted_at="1794217025.28" description="UDP Broadcast Relay settings">
+      <udpbroadcastrelay uuid="c675375e-8b1e-49e7-8173-3afe3b7fb423">
+        <enabled>1</enabled>
+        <interfaces>opt1,opt9</interfaces>
+        <multicastaddress/>
+        <sourceaddress/>
+        <listenport>27036</listenport>
+        <InstanceID>1</InstanceID>
+        <RevertTTL>0</RevertTTL>
+        <description>Steam Remote Play discovery TPLink and MGMT</description>
+      </udpbroadcastrelay>
+    </udpbroadcastrelays>
   </OPNsense>
   <laggs version="1.0.0">
     <lagg/>
