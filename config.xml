@@ -3803,9 +3803,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>root@10.10.10.1</username>
-    <description>/api/tailscale/settings/add_subnet/ made changes</description>
-    <time>1794211298.67</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1794216965.61</time>
   </revision>
   <Deciso>
     <Proxy>
@@ -8153,6 +8153,7 @@ hub-data.crowdsec.net</content>
         <preAuthKey>tskey-auth-k8SiSkHsRy11CNTRL-iDmDfMm4DphEgi55WCxNphD1kfYFMR8j</preAuthKey>
       </authentication>
     </tailscale>
+    <udpbroadcastrelays version="1.0.0" persisted_at="1794216965.60" description="UDP Broadcast Relay settings"/>
   </OPNsense>
   <laggs version="1.0.0">
     <lagg/>
