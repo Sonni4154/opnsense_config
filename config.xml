@@ -822,7 +822,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
       <staticmap>
         <mac>50:91:e3:a5:92:fd</mac>
         <cid>TP_Power_1</cid>
-        <ipaddr>10.10.15.102</ipaddr>
+        <ipaddr>10.10.15.55</ipaddr>
         <hostname>TP_PLUG_1</hostname>
         <arp_table_static_entry>1</arp_table_static_entry>
         <winsserver/>
@@ -3816,7 +3816,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.10.1</username>
     <description>/services_dhcp_edit.php made changes</description>
-    <time>1794447247.49</time>
+    <time>1794447267.70</time>
   </revision>
   <Deciso>
     <Proxy>
