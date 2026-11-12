@@ -819,6 +819,16 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <dnsserver/>
         <ntpserver/>
       </staticmap>
+      <staticmap>
+        <mac>50:91:e3:a5:92:fd</mac>
+        <cid>TP_Power_1</cid>
+        <ipaddr>10.10.15.102</ipaddr>
+        <hostname>TP_PLUG_1</hostname>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
     </opt9>
   </dhcpd>
   <snmpd>
@@ -3804,10 +3814,9 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
     <iburst>time.google.com</iburst>
   </ntpd>
   <revision>
-    <username>claude-api@10.10.99.1</username>
-    <user_apitoken>2cik+eUdS+ZZAaSPLBWb+cJ2rv/rsdhI/P4Cfux2EDDRVUPTEcrJZZ4feTo+9rmYZO/VWja5YrCPpbIZ</user_apitoken>
-    <description>/api/firewall/filter/addRule made changes</description>
-    <time>1794446079.53</time>
+    <username>root@10.10.10.1</username>
+    <description>/services_dhcp_edit.php made changes</description>
+    <time>1794447247.49</time>
   </revision>
   <Deciso>
     <Proxy>
