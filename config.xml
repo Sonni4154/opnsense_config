@@ -820,16 +820,6 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <ntpserver/>
       </staticmap>
       <staticmap>
-        <mac>50:91:e3:a5:1c:11</mac>
-        <cid>TP_POWER_3</cid>
-        <ipaddr>10.10.15.53</ipaddr>
-        <hostname>TP_PLUG_3</hostname>
-        <arp_table_static_entry>1</arp_table_static_entry>
-        <winsserver/>
-        <dnsserver/>
-        <ntpserver/>
-      </staticmap>
-      <staticmap>
         <mac>50:91:e3:a5:92:fd</mac>
         <cid>TP_Power_1</cid>
         <ipaddr>10.10.15.55</ipaddr>
@@ -844,6 +834,16 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
         <cid>TP_POWER_2</cid>
         <ipaddr>10.10.15.56</ipaddr>
         <hostname>TP_PLUG_2</hostname>
+        <arp_table_static_entry>1</arp_table_static_entry>
+        <winsserver/>
+        <dnsserver/>
+        <ntpserver/>
+      </staticmap>
+      <staticmap>
+        <mac>50:91:e3:a5:1c:11</mac>
+        <cid>TP_POWER_3</cid>
+        <ipaddr>10.10.15.57</ipaddr>
+        <hostname>TP_PLUG_3</hostname>
         <arp_table_static_entry>1</arp_table_static_entry>
         <winsserver/>
         <dnsserver/>
@@ -3836,7 +3836,7 @@ gz+1lCpKDi8fAAAAF3Jvb3RAb3Buc2Vuc2UubG9jYWwubGFuAQID&#13;
   <revision>
     <username>root@10.10.10.1</username>
     <description>/services_dhcp_edit.php made changes</description>
-    <time>1794447370.37</time>
+    <time>1794447382.29</time>
   </revision>
   <Deciso>
     <Proxy>
